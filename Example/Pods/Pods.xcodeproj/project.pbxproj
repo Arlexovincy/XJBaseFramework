@@ -8,84 +8,132 @@
 
 /* Begin PBXBuildFile section */
 		1B29D70B72D29865E4F6F0B1B2439DA4 /* Pods-XJBaseFramework_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 326D1B127B0E7A92943AECAA40B17CDD /* Pods-XJBaseFramework_Tests-dummy.m */; };
-		4CD26641AB35EBD90C2280F76549AC15 /* XJBaseFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7F3E00D0B35A38C016883560CE280DB /* XJBaseFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6FBC0310BDA352676A6F490CCB41DA04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		7015A507543BDA83439F3357A93B412E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		81DB262CBDA42FE154C3854A8689216F /* Pods-XJBaseFramework_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79198E794DA8A9ABFBF5CA820C215DA4 /* Pods-XJBaseFramework_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20A92FC736588CF2C5688AFD384EAD9D /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77B82FC34CEC0425AB6DA491C241199 /* UIColorExtension.swift */; };
+		2B57425DD941BA708FD8434EF747FC5A /* XJTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4F3575BC9AAE0E81E8A643152D8B71 /* XJTableView.swift */; };
+		2EB12379C6E40E835D1AC08FAADFC392 /* UIColor_Hex_Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0524CF1E14EC0B5BB017E5295DCABE60 /* UIColor_Hex_Swift-dummy.m */; };
+		342EEC54980F04E34BCBEF89C7483410 /* XJBaseNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8A66AE6177589752BB570BCF8A74BC /* XJBaseNavViewController.swift */; };
+		3DB2320AF24E5F4C92900577EE44878C /* UIColor_Hex_Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD2E20C27B4D7AA1A2EFE4384A376295 /* UIColor_Hex_Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EEE359E3EA05A87BEABA426D6092571 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2922CCF8F6A058337E4E4536A10CF166 /* StringExtension.swift */; };
+		4EE2EC2F10C2D2BC999CE30C679575FB /* HEXColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 39C2B64E8C8E8A1C6DB83549A1BBDAC0 /* HEXColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F7ADAB76F659FA15973E8EE2D390D36 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		6A66E3BF367B5100A4AB3A005FA9DF12 /* XJColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6243797F5CE0106EDDAF7FF620230801 /* XJColor.swift */; };
+		73CC1DD728E0A4E69229809C67E2618A /* Pods-XJBaseFramework_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79198E794DA8A9ABFBF5CA820C215DA4 /* Pods-XJBaseFramework_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		82B263AEF537791DEC3F166D1718C9A2 /* Pods-XJBaseFramework_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A121949385EDA68E45B0CCA7D36B9829 /* Pods-XJBaseFramework_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B63B727810150B7674CCE090BC4221F9 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5ED6FBA60C2FCD42A390995A86F8FCB /* ReplaceMe.swift */; };
-		CBCFB2C0CC669C3C804D0D700B78BC5E /* XJBaseFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A598FA2BE2DBDDD2097304AE9E0C2DD9 /* XJBaseFramework-dummy.m */; };
-		FAB694D735AAA8B77B3817A041B44011 /* Pods-XJBaseFramework_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17867FD40460CD184C1F0D4DB5830AD8 /* Pods-XJBaseFramework_Example-dummy.m */; };
-		FDFFAD524168DBA04799F8E1B880A8B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		95699E4616132A4B6B1602AE4DD5C6D7 /* XJLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CF54ECECAFC0CC6D5273EF5DE0F615 /* XJLabel.swift */; };
+		A0AF7F7D11F3BF3452E5D81A8B3613C6 /* XJCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34031F494C758E6A6B3A81A1BC13093 /* XJCollectionView.swift */; };
+		BAF9545C2A3BC31DE2DA2D58C2D11F69 /* XJButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8ED7FED912D2A37507909004026D4E /* XJButton.swift */; };
+		C2AB840AC4C26756D9F44C906EDDFB72 /* XJBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D136836DB298387DD3C6426766D37D9A /* XJBaseViewController.swift */; };
+		D005E9A215793DD5E318F94052C45350 /* UIColorInputError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC409DD9BB2B1287F4CE832DCF55985 /* UIColorInputError.swift */; };
+		E3C2D48AE8FA81DF7BAA9FFE571E1C15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		E51D149456AF506CE3B9632988551DAD /* XJBaseFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 626E53F84F79E84B5C90AB2C49F47BF2 /* XJBaseFramework-dummy.m */; };
+		E88C0D803A81AD8AB810B246F5A6DDAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		EE846FF0A1B4FC85786C78A4F0E598ED /* XJBaseFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 15ABE8A080E6999212A6DC8E6638F6B9 /* XJBaseFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9E69D16A121C2FF2D35473766BB832F /* Pods-XJBaseFramework_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17867FD40460CD184C1F0D4DB5830AD8 /* Pods-XJBaseFramework_Example-dummy.m */; };
+		FB1227598B1A07A4E0FC9AEC4F60E144 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		FDFFAD524168DBA04799F8E1B880A8B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		523798AEBED8EE6BDBD837C8248EA85A /* PBXContainerItemProxy */ = {
+		3349343FD246125D75D93D923ACDEF9A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 651154EF2897F735D8D202B501206F55;
-			remoteInfo = XJBaseFramework;
+			remoteGlobalIDString = A0CA3B0841360687C00D0E48D3E4C1B9;
+			remoteInfo = UIColor_Hex_Swift;
 		};
-		E0E72682EF47454327D5CFBC04F5B6C6 /* PBXContainerItemProxy */ = {
+		5AAF9C7E8BB620CE3BBF291C608D7FE1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4FD3B36FDFFEF0FDF5C831210682EA36;
 			remoteInfo = "Pods-XJBaseFramework_Example";
 		};
+		62ECCA89DF425F3309D666754DB80718 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 651154EF2897F735D8D202B501206F55;
+			remoteInfo = XJBaseFramework;
+		};
+		93590E8E071B7993913394758F38DBD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0CA3B0841360687C00D0E48D3E4C1B9;
+			remoteInfo = UIColor_Hex_Swift;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		018B1EFAEF3E888E0C2DE8D9398A1190 /* Pods-XJBaseFramework_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XJBaseFramework_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		0714969F6A0A583E86C60944B36A3E96 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		03591FA709468C91F780DDA80D341E99 /* UIColor_Hex_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UIColor_Hex_Swift.release.xcconfig; sourceTree = "<group>"; };
+		0524CF1E14EC0B5BB017E5295DCABE60 /* UIColor_Hex_Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor_Hex_Swift-dummy.m"; sourceTree = "<group>"; };
 		0AD27571189873AC4ACD9937B8932F91 /* Pods-XJBaseFramework_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XJBaseFramework_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		0CD62D60C8D2E2F212A498773CD7E226 /* Pods-XJBaseFramework_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XJBaseFramework_Example.modulemap"; sourceTree = "<group>"; };
+		0DB18749C4AB3FCD315988A3A55C8BF8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		1144362FDAAFEA17D0CDD5F50AA212BC /* Pods-XJBaseFramework_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XJBaseFramework_Tests.modulemap"; sourceTree = "<group>"; };
+		15ABE8A080E6999212A6DC8E6638F6B9 /* XJBaseFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XJBaseFramework-umbrella.h"; sourceTree = "<group>"; };
 		17867FD40460CD184C1F0D4DB5830AD8 /* Pods-XJBaseFramework_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XJBaseFramework_Example-dummy.m"; sourceTree = "<group>"; };
 		1AD6963154793DF371F30324932EBB94 /* Pods-XJBaseFramework_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XJBaseFramework_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		21031D1B48C54154653FE409B6AA3F3E /* XJBaseFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XJBaseFramework-Info.plist"; sourceTree = "<group>"; };
+		2922CCF8F6A058337E4E4536A10CF166 /* StringExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtension.swift; path = HEXColor/StringExtension.swift; sourceTree = "<group>"; };
 		326D1B127B0E7A92943AECAA40B17CDD /* Pods-XJBaseFramework_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XJBaseFramework_Tests-dummy.m"; sourceTree = "<group>"; };
-		407997D4AB7163F48E29422223559AA4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		480E7A42D8D4F2650225F7FA0748C0F9 /* XJBaseFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XJBaseFramework.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		593181B1564942A0CDC133BD7A9ADF8A /* XJBaseFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XJBaseFramework.modulemap; sourceTree = "<group>"; };
+		39C2B64E8C8E8A1C6DB83549A1BBDAC0 /* HEXColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HEXColor.h; path = HEXColor/HEXColor.h; sourceTree = "<group>"; };
+		3CA9432D29FF27C82E9620CD024938FF /* XJBaseFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XJBaseFramework-prefix.pch"; sourceTree = "<group>"; };
+		4DE87711BEAF500FA7C81FA30E8471F1 /* UIColor_Hex_Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor_Hex_Swift-prefix.pch"; sourceTree = "<group>"; };
+		58FA08FD4595D3CA9B2AA81405DE2EFA /* UIColor_Hex_Swift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UIColor_Hex_Swift; path = UIColor_Hex_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6243797F5CE0106EDDAF7FF620230801 /* XJColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XJColor.swift; path = XJBaseFramework/Classes/XJUIKit/XJColor.swift; sourceTree = "<group>"; };
+		626E53F84F79E84B5C90AB2C49F47BF2 /* XJBaseFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XJBaseFramework-dummy.m"; sourceTree = "<group>"; };
 		6E9B31662A15A002A8DAFF7796EEE39C /* XJBaseFramework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XJBaseFramework; path = XJBaseFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F8853DA5044D7DE849925D41227FF15 /* UIColor_Hex_Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UIColor_Hex_Swift-Info.plist"; sourceTree = "<group>"; };
 		70E470ECAA3FBBF027BEED36222DD14C /* Pods-XJBaseFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XJBaseFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		72E8D4BB758D61E38F85D5A313D077C1 /* Pods-XJBaseFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XJBaseFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7527158777B73FA3E3354F4F42737A0D /* Pods-XJBaseFramework_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XJBaseFramework_Example-frameworks.sh"; sourceTree = "<group>"; };
 		79198E794DA8A9ABFBF5CA820C215DA4 /* Pods-XJBaseFramework_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XJBaseFramework_Example-umbrella.h"; sourceTree = "<group>"; };
-		7B5C2E06BBF60B9F04D0D99EE7889315 /* XJBaseFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XJBaseFramework-prefix.pch"; sourceTree = "<group>"; };
 		8A953DEA6CD0FEC3A405EE06DFD6A1B9 /* Pods-XJBaseFramework_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-XJBaseFramework_Example"; path = Pods_XJBaseFramework_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B8ED7FED912D2A37507909004026D4E /* XJButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XJButton.swift; path = XJBaseFramework/Classes/XJUIKit/XJButton.swift; sourceTree = "<group>"; };
+		8CD5EAE400932ED01F74CF3FD220BAA0 /* UIColor_Hex_Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UIColor_Hex_Swift.modulemap; sourceTree = "<group>"; };
+		8E1BEE413364302B9C7C8A3BBE762C36 /* UIColor_Hex_Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UIColor_Hex_Swift.debug.xcconfig; sourceTree = "<group>"; };
 		95F8356AC085D224FAC2D3620E0BBB21 /* Pods-XJBaseFramework_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XJBaseFramework_Tests-Info.plist"; sourceTree = "<group>"; };
+		98F960227E0562B301FB26E5C1635597 /* XJBaseFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XJBaseFramework.modulemap; sourceTree = "<group>"; };
+		9C8A66AE6177589752BB570BCF8A74BC /* XJBaseNavViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XJBaseNavViewController.swift; path = XJBaseFramework/Classes/XJUIKit/XJBaseNavViewController.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A121949385EDA68E45B0CCA7D36B9829 /* Pods-XJBaseFramework_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XJBaseFramework_Tests-umbrella.h"; sourceTree = "<group>"; };
-		A598FA2BE2DBDDD2097304AE9E0C2DD9 /* XJBaseFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XJBaseFramework-dummy.m"; sourceTree = "<group>"; };
-		A7F3E00D0B35A38C016883560CE280DB /* XJBaseFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XJBaseFramework-umbrella.h"; sourceTree = "<group>"; };
+		A75149795D624F2EB466E53599926423 /* XJBaseFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XJBaseFramework.debug.xcconfig; sourceTree = "<group>"; };
 		AE7F6E15C0AB9154E7D1128EDF3E03B1 /* Pods-XJBaseFramework_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-XJBaseFramework_Tests"; path = Pods_XJBaseFramework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B4FC59FC0EE6E2EF92283AACAB2FC41D /* XJBaseFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XJBaseFramework.debug.xcconfig; sourceTree = "<group>"; };
-		B6F0919CCAA0E7A8F6A1A8CD01CC6D57 /* XJBaseFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XJBaseFramework.release.xcconfig; sourceTree = "<group>"; };
+		B34031F494C758E6A6B3A81A1BC13093 /* XJCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XJCollectionView.swift; path = XJBaseFramework/Classes/XJUIKit/XJCollectionView.swift; sourceTree = "<group>"; };
+		B3CCD1507B0F9E1B963C1D71E6F90EAC /* XJBaseFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XJBaseFramework.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B5CF54ECECAFC0CC6D5273EF5DE0F615 /* XJLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XJLabel.swift; path = XJBaseFramework/Classes/XJUIKit/XJLabel.swift; sourceTree = "<group>"; };
+		B77B82FC34CEC0425AB6DA491C241199 /* UIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = HEXColor/UIColorExtension.swift; sourceTree = "<group>"; };
+		BAC409DD9BB2B1287F4CE832DCF55985 /* UIColorInputError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorInputError.swift; path = HEXColor/UIColorInputError.swift; sourceTree = "<group>"; };
 		C711603CF24BE19A402E543159F304F9 /* Pods-XJBaseFramework_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XJBaseFramework_Example-Info.plist"; sourceTree = "<group>"; };
+		CC4F3575BC9AAE0E81E8A643152D8B71 /* XJTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XJTableView.swift; path = XJBaseFramework/Classes/XJUIKit/XJTableView.swift; sourceTree = "<group>"; };
+		D11BB2A53995660B47106A23131AEB68 /* XJBaseFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XJBaseFramework.release.xcconfig; sourceTree = "<group>"; };
+		D136836DB298387DD3C6426766D37D9A /* XJBaseViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XJBaseViewController.swift; path = XJBaseFramework/Classes/XJUIKit/XJBaseViewController.swift; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		D2C4E6DBC7C32FADE849980833223529 /* Pods-XJBaseFramework_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XJBaseFramework_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D43E46E53EE52E69FBEAC39D1D104E8E /* Pods-XJBaseFramework_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XJBaseFramework_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D4EACABCAA93CB3A979BEBDCE219A6A2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		D9480D7638635D6225D60AD2568791D7 /* Pods-XJBaseFramework_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XJBaseFramework_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DB0042FE72AE8BD3A4B3BFB70C39B9D8 /* XJBaseFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XJBaseFramework-Info.plist"; sourceTree = "<group>"; };
-		E5ED6FBA60C2FCD42A390995A86F8FCB /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = XJBaseFramework/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		DD2E20C27B4D7AA1A2EFE4384A376295 /* UIColor_Hex_Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor_Hex_Swift-umbrella.h"; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		410888C3201122933ED151FE70562B6E /* Frameworks */ = {
+		5C9B3C65E54998F5193CA304A90C9083 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FBC0310BDA352676A6F490CCB41DA04 /* Foundation.framework in Frameworks */,
+				FB1227598B1A07A4E0FC9AEC4F60E144 /* Foundation.framework in Frameworks */,
+				4F7ADAB76F659FA15973E8EE2D390D36 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		895AA11E4CFB64525E45C3AF3B464D1B /* Frameworks */ = {
+		69E1DABDE43CC808AB5EF90EC032FEA1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7015A507543BDA83439F3357A93B412E /* Foundation.framework in Frameworks */,
+				E3C2D48AE8FA81DF7BAA9FFE571E1C15 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,15 +145,55 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E6BC198BB848DDB70433A4C0CD477B16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E88C0D803A81AD8AB810B246F5A6DDAB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		23C63A0D2AE1736FD715DC676A60C2B4 /* Development Pods */ = {
+		0896D42FC7A62962CA1584C635994E59 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				EB773A559B4F59242483B4191DD214EB /* XJBaseFramework */,
+				8CD5EAE400932ED01F74CF3FD220BAA0 /* UIColor_Hex_Swift.modulemap */,
+				0524CF1E14EC0B5BB017E5295DCABE60 /* UIColor_Hex_Swift-dummy.m */,
+				6F8853DA5044D7DE849925D41227FF15 /* UIColor_Hex_Swift-Info.plist */,
+				4DE87711BEAF500FA7C81FA30E8471F1 /* UIColor_Hex_Swift-prefix.pch */,
+				DD2E20C27B4D7AA1A2EFE4384A376295 /* UIColor_Hex_Swift-umbrella.h */,
+				8E1BEE413364302B9C7C8A3BBE762C36 /* UIColor_Hex_Swift.debug.xcconfig */,
+				03591FA709468C91F780DDA80D341E99 /* UIColor_Hex_Swift.release.xcconfig */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "../Target Support Files/UIColor_Hex_Swift";
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1E02256CB15518879D4C96691626E043 /* XJBaseFramework */ = {
+			isa = PBXGroup;
+			children = (
+				9C8A66AE6177589752BB570BCF8A74BC /* XJBaseNavViewController.swift */,
+				D136836DB298387DD3C6426766D37D9A /* XJBaseViewController.swift */,
+				8B8ED7FED912D2A37507909004026D4E /* XJButton.swift */,
+				B34031F494C758E6A6B3A81A1BC13093 /* XJCollectionView.swift */,
+				6243797F5CE0106EDDAF7FF620230801 /* XJColor.swift */,
+				B5CF54ECECAFC0CC6D5273EF5DE0F615 /* XJLabel.swift */,
+				CC4F3575BC9AAE0E81E8A643152D8B71 /* XJTableView.swift */,
+				97158718103A0E3063955681919A3585 /* Pod */,
+				CD185DBA9DE763AE2B27DBAE19080A5B /* Support Files */,
+			);
+			name = XJBaseFramework;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		3216741B2E5C850C2504270EDBFEA193 /* Pods-XJBaseFramework_Example */ = {
@@ -125,20 +213,27 @@
 			path = "Target Support Files/Pods-XJBaseFramework_Example";
 			sourceTree = "<group>";
 		};
-		4D058874DE294177D3EFB1F6AFF9EA26 /* Pod */ = {
+		46930E5AAEF04EC99B51419E260E3874 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				407997D4AB7163F48E29422223559AA4 /* LICENSE */,
-				0714969F6A0A583E86C60944B36A3E96 /* README.md */,
-				480E7A42D8D4F2650225F7FA0748C0F9 /* XJBaseFramework.podspec */,
+				1E02256CB15518879D4C96691626E043 /* XJBaseFramework */,
 			);
-			name = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+		52CAD2482FC9AC89671234F174BA8E80 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+				DB36E79B88441415D27E7EFCF7E3098C /* UIColor_Hex_Swift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -168,77 +263,92 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		80C83030D7E3728DD8C2848EEE99C542 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				593181B1564942A0CDC133BD7A9ADF8A /* XJBaseFramework.modulemap */,
-				A598FA2BE2DBDDD2097304AE9E0C2DD9 /* XJBaseFramework-dummy.m */,
-				DB0042FE72AE8BD3A4B3BFB70C39B9D8 /* XJBaseFramework-Info.plist */,
-				7B5C2E06BBF60B9F04D0D99EE7889315 /* XJBaseFramework-prefix.pch */,
-				A7F3E00D0B35A38C016883560CE280DB /* XJBaseFramework-umbrella.h */,
-				B4FC59FC0EE6E2EF92283AACAB2FC41D /* XJBaseFramework.debug.xcconfig */,
-				B6F0919CCAA0E7A8F6A1A8CD01CC6D57 /* XJBaseFramework.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/XJBaseFramework";
-			sourceTree = "<group>";
-		};
-		9E6F2B54F111C5830643AD65732ABC4C /* Products */ = {
+		75FA3E0E69DA0209EF4D4E76CC479331 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				8A953DEA6CD0FEC3A405EE06DFD6A1B9 /* Pods-XJBaseFramework_Example */,
 				AE7F6E15C0AB9154E7D1128EDF3E03B1 /* Pods-XJBaseFramework_Tests */,
+				58FA08FD4595D3CA9B2AA81405DE2EFA /* UIColor_Hex_Swift */,
 				6E9B31662A15A002A8DAFF7796EEE39C /* XJBaseFramework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		97158718103A0E3063955681919A3585 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0DB18749C4AB3FCD315988A3A55C8BF8 /* LICENSE */,
+				D4EACABCAA93CB3A979BEBDCE219A6A2 /* README.md */,
+				B3CCD1507B0F9E1B963C1D71E6F90EAC /* XJBaseFramework.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CD185DBA9DE763AE2B27DBAE19080A5B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				98F960227E0562B301FB26E5C1635597 /* XJBaseFramework.modulemap */,
+				626E53F84F79E84B5C90AB2C49F47BF2 /* XJBaseFramework-dummy.m */,
+				21031D1B48C54154653FE409B6AA3F3E /* XJBaseFramework-Info.plist */,
+				3CA9432D29FF27C82E9620CD024938FF /* XJBaseFramework-prefix.pch */,
+				15ABE8A080E6999212A6DC8E6638F6B9 /* XJBaseFramework-umbrella.h */,
+				A75149795D624F2EB466E53599926423 /* XJBaseFramework.debug.xcconfig */,
+				D11BB2A53995660B47106A23131AEB68 /* XJBaseFramework.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XJBaseFramework";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				23C63A0D2AE1736FD715DC676A60C2B4 /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				9E6F2B54F111C5830643AD65732ABC4C /* Products */,
+				46930E5AAEF04EC99B51419E260E3874 /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				52CAD2482FC9AC89671234F174BA8E80 /* Pods */,
+				75FA3E0E69DA0209EF4D4E76CC479331 /* Products */,
 				705649AA7410C946D764A3D57F076D64 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		DB36E79B88441415D27E7EFCF7E3098C /* UIColor_Hex_Swift */ = {
 			isa = PBXGroup;
 			children = (
-				578452D2E740E91742655AC8F1636D1F /* iOS */,
+				39C2B64E8C8E8A1C6DB83549A1BBDAC0 /* HEXColor.h */,
+				2922CCF8F6A058337E4E4536A10CF166 /* StringExtension.swift */,
+				B77B82FC34CEC0425AB6DA491C241199 /* UIColorExtension.swift */,
+				BAC409DD9BB2B1287F4CE832DCF55985 /* UIColorInputError.swift */,
+				0896D42FC7A62962CA1584C635994E59 /* Support Files */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		EB773A559B4F59242483B4191DD214EB /* XJBaseFramework */ = {
-			isa = PBXGroup;
-			children = (
-				E5ED6FBA60C2FCD42A390995A86F8FCB /* ReplaceMe.swift */,
-				4D058874DE294177D3EFB1F6AFF9EA26 /* Pod */,
-				80C83030D7E3728DD8C2848EEE99C542 /* Support Files */,
-			);
-			name = XJBaseFramework;
-			path = ../..;
+			name = UIColor_Hex_Swift;
+			path = UIColor_Hex_Swift;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4C373C6793B7F9963A7635DEF0B4EDA0 /* Headers */ = {
+		19125098D221B2D8C5F1214DAE4046C3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CD26641AB35EBD90C2280F76549AC15 /* XJBaseFramework-umbrella.h in Headers */,
+				4EE2EC2F10C2D2BC999CE30C679575FB /* HEXColor.h in Headers */,
+				3DB2320AF24E5F4C92900577EE44878C /* UIColor_Hex_Swift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ADB137BB97F8A334C3D2B61EE290B254 /* Headers */ = {
+		1979EC470CC5BAA559692ADE233C59B8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81DB262CBDA42FE154C3854A8689216F /* Pods-XJBaseFramework_Example-umbrella.h in Headers */,
+				EE846FF0A1B4FC85786C78A4F0E598ED /* XJBaseFramework-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		485E07C2A1CE5EB1A6AD017DB146E309 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73CC1DD728E0A4E69229809C67E2618A /* Pods-XJBaseFramework_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,17 +365,18 @@
 /* Begin PBXNativeTarget section */
 		4FD3B36FDFFEF0FDF5C831210682EA36 /* Pods-XJBaseFramework_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CA79CE67E204C9EAFF5DD534CAD76918 /* Build configuration list for PBXNativeTarget "Pods-XJBaseFramework_Example" */;
+			buildConfigurationList = 19589FBC64D6E44A5C835A540666D39C /* Build configuration list for PBXNativeTarget "Pods-XJBaseFramework_Example" */;
 			buildPhases = (
-				ADB137BB97F8A334C3D2B61EE290B254 /* Headers */,
-				BA76D59EDB531A41BF06497FCC132E81 /* Sources */,
-				410888C3201122933ED151FE70562B6E /* Frameworks */,
-				46326AE8019ADCC2B92421370EA1395C /* Resources */,
+				485E07C2A1CE5EB1A6AD017DB146E309 /* Headers */,
+				8B2D842E775BAADB6A14E0FCA1741B6F /* Sources */,
+				69E1DABDE43CC808AB5EF90EC032FEA1 /* Frameworks */,
+				B7DE7F49A22BC6AD01546AC680A7C068 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4B2885AFF846A5586E09AAE93BE96458 /* PBXTargetDependency */,
+				3F4F9319669982C27A8B9756BF8AD10F /* PBXTargetDependency */,
+				92AFE95DDE66BA6E817FCEC62C21DCBD /* PBXTargetDependency */,
 			);
 			name = "Pods-XJBaseFramework_Example";
 			productName = Pods_XJBaseFramework_Example;
@@ -284,7 +395,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				FBD0C63CD2A0BBC29DA5A27A9EE6B5BF /* PBXTargetDependency */,
+				4CD4887088C47EA81BF8FAF85C5BC55B /* PBXTargetDependency */,
 			);
 			name = "Pods-XJBaseFramework_Tests";
 			productName = Pods_XJBaseFramework_Tests;
@@ -293,20 +404,39 @@
 		};
 		651154EF2897F735D8D202B501206F55 /* XJBaseFramework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18D6A13BC584887C278E14EE10641FF8 /* Build configuration list for PBXNativeTarget "XJBaseFramework" */;
+			buildConfigurationList = 6049158864E4EF139081E593D27F9B00 /* Build configuration list for PBXNativeTarget "XJBaseFramework" */;
 			buildPhases = (
-				4C373C6793B7F9963A7635DEF0B4EDA0 /* Headers */,
-				7A011E2B0780C1462B58A49E34D2CBCB /* Sources */,
-				895AA11E4CFB64525E45C3AF3B464D1B /* Frameworks */,
-				E09540E8A18F94C27395A0EA8E44F698 /* Resources */,
+				1979EC470CC5BAA559692ADE233C59B8 /* Headers */,
+				22C53DE100D901F0064A34A5CDE8979C /* Sources */,
+				E6BC198BB848DDB70433A4C0CD477B16 /* Frameworks */,
+				BBBA328967C8FCB9B162AC7DD07649EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E26FCC09D29C3AE9F79D68C713EDF0B /* PBXTargetDependency */,
+			);
+			name = XJBaseFramework;
+			productName = XJBaseFramework;
+			productReference = 6E9B31662A15A002A8DAFF7796EEE39C /* XJBaseFramework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A0CA3B0841360687C00D0E48D3E4C1B9 /* UIColor_Hex_Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E22B609ECAEFA85B75A98369FF2A6B24 /* Build configuration list for PBXNativeTarget "UIColor_Hex_Swift" */;
+			buildPhases = (
+				19125098D221B2D8C5F1214DAE4046C3 /* Headers */,
+				D890B797D9B7D90296E55AB16B09E319 /* Sources */,
+				5C9B3C65E54998F5193CA304A90C9083 /* Frameworks */,
+				138A97688963F4E7BFE825F22241B122 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = XJBaseFramework;
-			productName = XJBaseFramework;
-			productReference = 6E9B31662A15A002A8DAFF7796EEE39C /* XJBaseFramework */;
+			name = UIColor_Hex_Swift;
+			productName = UIColor_Hex_Swift;
+			productReference = 58FA08FD4595D3CA9B2AA81405DE2EFA /* UIColor_Hex_Swift */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -327,26 +457,34 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 9E6F2B54F111C5830643AD65732ABC4C /* Products */;
+			productRefGroup = 75FA3E0E69DA0209EF4D4E76CC479331 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				4FD3B36FDFFEF0FDF5C831210682EA36 /* Pods-XJBaseFramework_Example */,
 				5E2464D75D501296F301B034992275FB /* Pods-XJBaseFramework_Tests */,
+				A0CA3B0841360687C00D0E48D3E4C1B9 /* UIColor_Hex_Swift */,
 				651154EF2897F735D8D202B501206F55 /* XJBaseFramework */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		46326AE8019ADCC2B92421370EA1395C /* Resources */ = {
+		138A97688963F4E7BFE825F22241B122 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E09540E8A18F94C27395A0EA8E44F698 /* Resources */ = {
+		B7DE7F49A22BC6AD01546AC680A7C068 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBBA328967C8FCB9B162AC7DD07649EC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,12 +501,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7A011E2B0780C1462B58A49E34D2CBCB /* Sources */ = {
+		22C53DE100D901F0064A34A5CDE8979C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B63B727810150B7674CCE090BC4221F9 /* ReplaceMe.swift in Sources */,
-				CBCFB2C0CC669C3C804D0D700B78BC5E /* XJBaseFramework-dummy.m in Sources */,
+				E51D149456AF506CE3B9632988551DAD /* XJBaseFramework-dummy.m in Sources */,
+				342EEC54980F04E34BCBEF89C7483410 /* XJBaseNavViewController.swift in Sources */,
+				C2AB840AC4C26756D9F44C906EDDFB72 /* XJBaseViewController.swift in Sources */,
+				BAF9545C2A3BC31DE2DA2D58C2D11F69 /* XJButton.swift in Sources */,
+				A0AF7F7D11F3BF3452E5D81A8B3613C6 /* XJCollectionView.swift in Sources */,
+				6A66E3BF367B5100A4AB3A005FA9DF12 /* XJColor.swift in Sources */,
+				95699E4616132A4B6B1602AE4DD5C6D7 /* XJLabel.swift in Sources */,
+				2B57425DD941BA708FD8434EF747FC5A /* XJTableView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B2D842E775BAADB6A14E0FCA1741B6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9E69D16A121C2FF2D35473766BB832F /* Pods-XJBaseFramework_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,69 +532,53 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BA76D59EDB531A41BF06497FCC132E81 /* Sources */ = {
+		D890B797D9B7D90296E55AB16B09E319 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAB694D735AAA8B77B3817A041B44011 /* Pods-XJBaseFramework_Example-dummy.m in Sources */,
+				3EEE359E3EA05A87BEABA426D6092571 /* StringExtension.swift in Sources */,
+				2EB12379C6E40E835D1AC08FAADFC392 /* UIColor_Hex_Swift-dummy.m in Sources */,
+				20A92FC736588CF2C5688AFD384EAD9D /* UIColorExtension.swift in Sources */,
+				D005E9A215793DD5E318F94052C45350 /* UIColorInputError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4B2885AFF846A5586E09AAE93BE96458 /* PBXTargetDependency */ = {
+		1E26FCC09D29C3AE9F79D68C713EDF0B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = XJBaseFramework;
-			target = 651154EF2897F735D8D202B501206F55 /* XJBaseFramework */;
-			targetProxy = 523798AEBED8EE6BDBD837C8248EA85A /* PBXContainerItemProxy */;
+			name = UIColor_Hex_Swift;
+			target = A0CA3B0841360687C00D0E48D3E4C1B9 /* UIColor_Hex_Swift */;
+			targetProxy = 3349343FD246125D75D93D923ACDEF9A /* PBXContainerItemProxy */;
 		};
-		FBD0C63CD2A0BBC29DA5A27A9EE6B5BF /* PBXTargetDependency */ = {
+		3F4F9319669982C27A8B9756BF8AD10F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UIColor_Hex_Swift;
+			target = A0CA3B0841360687C00D0E48D3E4C1B9 /* UIColor_Hex_Swift */;
+			targetProxy = 93590E8E071B7993913394758F38DBD6 /* PBXContainerItemProxy */;
+		};
+		4CD4887088C47EA81BF8FAF85C5BC55B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-XJBaseFramework_Example";
 			target = 4FD3B36FDFFEF0FDF5C831210682EA36 /* Pods-XJBaseFramework_Example */;
-			targetProxy = E0E72682EF47454327D5CFBC04F5B6C6 /* PBXContainerItemProxy */;
+			targetProxy = 5AAF9C7E8BB620CE3BBF291C608D7FE1 /* PBXContainerItemProxy */;
+		};
+		92AFE95DDE66BA6E817FCEC62C21DCBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XJBaseFramework;
+			target = 651154EF2897F735D8D202B501206F55 /* XJBaseFramework */;
+			targetProxy = 62ECCA89DF425F3309D666754DB80718 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1A4D8B1D8C78B5749288EC66F881B720 /* Release */ = {
+		04F01DB5C80C997CF59A951CE53B071E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B6F0919CCAA0E7A8F6A1A8CD01CC6D57 /* XJBaseFramework.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XJBaseFramework/XJBaseFramework-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XJBaseFramework/XJBaseFramework-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/XJBaseFramework/XJBaseFramework.modulemap";
-				PRODUCT_MODULE_NAME = XJBaseFramework;
-				PRODUCT_NAME = XJBaseFramework;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		55EB1778C7F82882B93A74D9FC477559 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 72E8D4BB758D61E38F85D5A313D077C1 /* Pods-XJBaseFramework_Tests.debug.xcconfig */;
+			baseConfigurationReference = 70E470ECAA3FBBF027BEED36222DD14C /* Pods-XJBaseFramework_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -454,7 +590,42 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-XJBaseFramework_Tests/Pods-XJBaseFramework_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XJBaseFramework_Tests/Pods-XJBaseFramework_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4C1E31AA7ECF7FE7A95BC1E81FEF5EE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72E8D4BB758D61E38F85D5A313D077C1 /* Pods-XJBaseFramework_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XJBaseFramework_Tests/Pods-XJBaseFramework_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-XJBaseFramework_Tests/Pods-XJBaseFramework_Tests.modulemap";
@@ -471,41 +642,7 @@
 			};
 			name = Debug;
 		};
-		673F8566119C648066F48408F3BDEC65 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 70E470ECAA3FBBF027BEED36222DD14C /* Pods-XJBaseFramework_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-XJBaseFramework_Tests/Pods-XJBaseFramework_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-XJBaseFramework_Tests/Pods-XJBaseFramework_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -555,7 +692,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -567,11 +704,12 @@
 			};
 			name = Release;
 		};
-		A635D3272E5CAE70EEB5F706D5544EC2 /* Release */ = {
+		A0CB48987EF09C9D8EF502AED1ABB99A /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D2C4E6DBC7C32FADE849980833223529 /* Pods-XJBaseFramework_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -583,7 +721,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-XJBaseFramework_Example/Pods-XJBaseFramework_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-XJBaseFramework_Example/Pods-XJBaseFramework_Example.modulemap";
@@ -601,10 +739,11 @@
 			};
 			name = Release;
 		};
-		CCAC322065A53B1EA6B8621B5544E515 /* Debug */ = {
+		B10561FADA22AC8D2E9CFCEE11F1189E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B4FC59FC0EE6E2EF92283AACAB2FC41D /* XJBaseFramework.debug.xcconfig */;
+			baseConfigurationReference = A75149795D624F2EB466E53599926423 /* XJBaseFramework.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -632,7 +771,7 @@
 			};
 			name = Debug;
 		};
-		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -685,7 +824,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -698,11 +837,77 @@
 			};
 			name = Debug;
 		};
-		DD2604EC563685DBBCF7AF24784DF48C /* Debug */ = {
+		B8F89D2DD0AABE59BE5E3BA6A81516BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03591FA709468C91F780DDA80D341E99 /* UIColor_Hex_Swift.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UIColor_Hex_Swift/UIColor_Hex_Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIColor_Hex_Swift/UIColor_Hex_Swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIColor_Hex_Swift/UIColor_Hex_Swift.modulemap";
+				PRODUCT_MODULE_NAME = UIColor_Hex_Swift;
+				PRODUCT_NAME = UIColor_Hex_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D5573FB6CA7B29D5215D91798FA1C049 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D11BB2A53995660B47106A23131AEB68 /* XJBaseFramework.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XJBaseFramework/XJBaseFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XJBaseFramework/XJBaseFramework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XJBaseFramework/XJBaseFramework.modulemap";
+				PRODUCT_MODULE_NAME = XJBaseFramework;
+				PRODUCT_NAME = XJBaseFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F496EC760F03A0ED1DEBC6F6C4231987 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D9480D7638635D6225D60AD2568791D7 /* Pods-XJBaseFramework_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -714,7 +919,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-XJBaseFramework_Example/Pods-XJBaseFramework_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-XJBaseFramework_Example/Pods-XJBaseFramework_Example.modulemap";
@@ -731,14 +936,45 @@
 			};
 			name = Debug;
 		};
+		F7A9972E46DA8187A65E7743620D3830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E1BEE413364302B9C7C8A3BBE762C36 /* UIColor_Hex_Swift.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UIColor_Hex_Swift/UIColor_Hex_Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIColor_Hex_Swift/UIColor_Hex_Swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIColor_Hex_Swift/UIColor_Hex_Swift.modulemap";
+				PRODUCT_MODULE_NAME = UIColor_Hex_Swift;
+				PRODUCT_NAME = UIColor_Hex_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		18D6A13BC584887C278E14EE10641FF8 /* Build configuration list for PBXNativeTarget "XJBaseFramework" */ = {
+		19589FBC64D6E44A5C835A540666D39C /* Build configuration list for PBXNativeTarget "Pods-XJBaseFramework_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CCAC322065A53B1EA6B8621B5544E515 /* Debug */,
-				1A4D8B1D8C78B5749288EC66F881B720 /* Release */,
+				F496EC760F03A0ED1DEBC6F6C4231987 /* Debug */,
+				A0CB48987EF09C9D8EF502AED1ABB99A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -746,8 +982,8 @@
 		456A22F50BE5DFDD294ECBC50EAA9A40 /* Build configuration list for PBXNativeTarget "Pods-XJBaseFramework_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				55EB1778C7F82882B93A74D9FC477559 /* Debug */,
-				673F8566119C648066F48408F3BDEC65 /* Release */,
+				4C1E31AA7ECF7FE7A95BC1E81FEF5EE2 /* Debug */,
+				04F01DB5C80C997CF59A951CE53B071E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -755,17 +991,26 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
-				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+				B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */,
+				903A0004D3E6651EFD5D2E16214D101B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CA79CE67E204C9EAFF5DD534CAD76918 /* Build configuration list for PBXNativeTarget "Pods-XJBaseFramework_Example" */ = {
+		6049158864E4EF139081E593D27F9B00 /* Build configuration list for PBXNativeTarget "XJBaseFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DD2604EC563685DBBCF7AF24784DF48C /* Debug */,
-				A635D3272E5CAE70EEB5F706D5544EC2 /* Release */,
+				B10561FADA22AC8D2E9CFCEE11F1189E /* Debug */,
+				D5573FB6CA7B29D5215D91798FA1C049 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E22B609ECAEFA85B75A98369FF2A6B24 /* Build configuration list for PBXNativeTarget "UIColor_Hex_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7A9972E46DA8187A65E7743620D3830 /* Debug */,
+				B8F89D2DD0AABE59BE5E3BA6A81516BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -32,6 +32,11 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'XJBaseFramework/Classes/**/*'
   
+  s.subspec 'XJUIKit' do |uikit|
+    uikit.source_files = 'XJBaseFramework/XJUIKit/**'
+    uikit.dependency 'UIColor_Hex_Swift', '~> 5.1.7'
+  end
+  
   # s.resource_bundles = {
   #   'XJBaseFramework' => ['XJBaseFramework/Assets/*.png']
   # }

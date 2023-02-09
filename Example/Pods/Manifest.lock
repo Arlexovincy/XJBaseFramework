@@ -1,16 +1,25 @@
 PODS:
-  - XJBaseFramework (0.1.0)
+  - UIColor_Hex_Swift (5.1.7)
+  - XJBaseFramework (0.1.0):
+    - XJBaseFramework/XJUIKit (= 0.1.0)
+  - XJBaseFramework/XJUIKit (0.1.0):
+    - UIColor_Hex_Swift (~> 5.1.7)
 
 DEPENDENCIES:
   - XJBaseFramework (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - UIColor_Hex_Swift
 
 EXTERNAL SOURCES:
   XJBaseFramework:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XJBaseFramework: 4881e7ed5a1bb9d2427b7685892a7479b6d9fe57
+  UIColor_Hex_Swift: 31cd3e47440f07a20d2503a36bb0437a445b3c29
+  XJBaseFramework: aee24a4967b56d82fbea1b656dcf1104957d7bb8
 
-PODFILE CHECKSUM: 704b74d1c4fdbb7ecf65163c0605760439557949
+PODFILE CHECKSUM: 210288ec7e8cfba4c55ea8cb12d492f556313219
 
 COCOAPODS: 1.11.3

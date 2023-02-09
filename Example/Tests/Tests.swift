@@ -1,5 +1,4 @@
 import XCTest
-import XJBaseFramework
 
 class Tests: XCTestCase {
     
