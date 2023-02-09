@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'XJBaseFramework_Example' do
+  pod 'XJBaseFramework', :path => '../'
+
+  target 'XJBaseFramework_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
