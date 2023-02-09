@@ -1,0 +1,6 @@
+framework module XJBaseFramework {
+  umbrella header "XJBaseFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

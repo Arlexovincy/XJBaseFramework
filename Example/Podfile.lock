@@ -1,0 +1,16 @@
+PODS:
+  - XJBaseFramework (0.1.0)
+
+DEPENDENCIES:
+  - XJBaseFramework (from `../`)
+
+EXTERNAL SOURCES:
+  XJBaseFramework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XJBaseFramework: 4881e7ed5a1bb9d2427b7685892a7479b6d9fe57
+
+PODFILE CHECKSUM: 704b74d1c4fdbb7ecf65163c0605760439557949
+
+COCOAPODS: 1.11.3

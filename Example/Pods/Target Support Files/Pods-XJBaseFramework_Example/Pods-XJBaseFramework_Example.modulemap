@@ -1,0 +1,6 @@
+framework module Pods_XJBaseFramework_Example {
+  umbrella header "Pods-XJBaseFramework_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

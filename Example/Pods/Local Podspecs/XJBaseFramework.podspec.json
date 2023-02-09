@@ -1,0 +1,22 @@
+{
+  "name": "XJBaseFramework",
+  "version": "0.1.0",
+  "summary": "A short description of XJBaseFramework.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/AndreaArlex/XJBaseFramework",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "AndreaArlex": "lixijian@tuandai.com"
+  },
+  "source": {
+    "git": "https://github.com/AndreaArlex/XJBaseFramework.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "XJBaseFramework/Classes/**/*"
+}
