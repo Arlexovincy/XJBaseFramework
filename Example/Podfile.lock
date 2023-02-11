@@ -1,15 +1,21 @@
 PODS:
+  - MBProgressHUD (1.2.0)
+  - SnapKit (5.6.0)
   - UIColor_Hex_Swift (5.1.7)
   - XJBaseFramework (0.1.0):
     - XJBaseFramework/XJUIKit (= 0.1.0)
   - XJBaseFramework/XJUIKit (0.1.0):
+    - MBProgressHUD (~> 1.2.0)
     - UIColor_Hex_Swift (~> 5.1.7)
 
 DEPENDENCIES:
+  - SnapKit (~> 5.6.0)
   - XJBaseFramework (from `../`)
 
 SPEC REPOS:
   trunk:
+    - MBProgressHUD
+    - SnapKit
     - UIColor_Hex_Swift
 
 EXTERNAL SOURCES:
@@ -17,9 +23,11 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
   UIColor_Hex_Swift: 31cd3e47440f07a20d2503a36bb0437a445b3c29
-  XJBaseFramework: aee24a4967b56d82fbea1b656dcf1104957d7bb8
+  XJBaseFramework: 717f7141c6768b442718938a418dd074f34bf5ba
 
-PODFILE CHECKSUM: 210288ec7e8cfba4c55ea8cb12d492f556313219
+PODFILE CHECKSUM: 23180863dc843a454df975191be3328b8c9db262
 
 COCOAPODS: 1.11.3

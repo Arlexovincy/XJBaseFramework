@@ -30,11 +30,12 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'XJBaseFramework/Classes/**/*'
+#  s.source_files = 'XJBaseFramework/Classes/**/*'
   
   s.subspec 'XJUIKit' do |uikit|
-    uikit.source_files = 'XJBaseFramework/XJUIKit/**'
+    uikit.source_files = 'XJBaseFramework/Classes/XJUIKit/**'
     uikit.dependency 'UIColor_Hex_Swift', '~> 5.1.7'
+    uikit.dependency 'MBProgressHUD', '~> 1.2.0'
   end
   
   # s.resource_bundles = {

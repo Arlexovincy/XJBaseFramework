@@ -1,29 +1,17 @@
 //
-//  XJBaseViewController.swift
-//  XJBaseFramework
+//  MyTest1ViewController.swift
+//  XJBaseFramework_Example
 //
-//  Created by 黎锡坚 on 2023/2/7.
+//  Created by 黎锡坚 on 2023/2/9.
+//  Copyright © 2023 CocoaPods. All rights reserved.
 //
 
 import UIKit
+import XJBaseFramework
 
-public protocol XJBaseViewControllerProtocol: NSObject {
-    
-}
+class MyTest1ViewController: XJBaseViewController<MyBaseTestView> {
 
-open class XJBaseViewController<Container: UIView>: UIViewController {
-
-    var container: Container { view as! Container }
-
-    open override func loadView() {
-        super.loadView()
-        if view is Container {
-            return
-        }
-        view = Container()
-    }
-
-    open override func viewDidLoad() {
+    override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.

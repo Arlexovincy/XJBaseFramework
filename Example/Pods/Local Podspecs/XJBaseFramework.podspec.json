@@ -18,14 +18,16 @@
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "XJBaseFramework/Classes/**/*",
   "subspecs": [
     {
       "name": "XJUIKit",
-      "source_files": "XJBaseFramework/XJUIKit/**",
+      "source_files": "XJBaseFramework/Classes/XJUIKit/**",
       "dependencies": {
         "UIColor_Hex_Swift": [
           "~> 5.1.7"
+        ],
+        "MBProgressHUD": [
+          "~> 1.2.0"
         ]
       }
     }

@@ -4,6 +4,7 @@ platform :ios, '11.0'
 
 target 'XJBaseFramework_Example' do
   pod 'XJBaseFramework', :path => '../'
+  pod 'SnapKit', '~> 5.6.0'
 
   target 'XJBaseFramework_Tests' do
     inherit! :search_paths
