@@ -24,6 +24,7 @@
 		2EB12379C6E40E835D1AC08FAADFC392 /* UIColor_Hex_Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 863151E085A49FEACF4BB083E6518963 /* UIColor_Hex_Swift-dummy.m */; };
 		3660B4F629053ABC3C1DF69366770289 /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8111EA78D5E3F8B4C71EE7919A8D96C /* ConstraintConfig.swift */; };
 		38B9D58E94D9C1CECD7E381C64A2329D /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A1CF284BE3B370AD34732439E9A79D /* UILayoutSupport+Extensions.swift */; };
+		3A073C052998F69C00EBDEFC /* XJEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A073C042998F69C00EBDEFC /* XJEmptyStateView.swift */; };
 		3DB2320AF24E5F4C92900577EE44878C /* UIColor_Hex_Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 445BB697177040B24ADD4E2694CF55F9 /* UIColor_Hex_Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3EEE359E3EA05A87BEABA426D6092571 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C287547C4BF5FD829CB50E6A321B1C86 /* StringExtension.swift */; };
 		42B6ACFCF650183030867CB3EF345E95 /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184B92D8415FDE802ADE09A2C8A659AC /* ConstraintMakerFinalizable.swift */; };
@@ -151,7 +152,7 @@
 		17B5ED46A0F3E668AB6D02205EE7E83E /* XJHUDProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XJHUDProvider.swift; path = XJBaseFramework/Classes/XJUIKit/XJHUDProvider.swift; sourceTree = "<group>"; };
 		184B92D8415FDE802ADE09A2C8A659AC /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Sources/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
 		1AD6963154793DF371F30324932EBB94 /* Pods-XJBaseFramework_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XJBaseFramework_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1F04E4ABF39C78839CADD0D9457C390F /* XJBaseFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XJBaseFramework.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1F04E4ABF39C78839CADD0D9457C390F /* XJBaseFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = XJBaseFramework.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2B59050E5DD4B297D738596294C29FD9 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
 		2BF20D032BBA8851CF1599D472F1FFDB /* ConstraintDirectionalInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDirectionalInsetTarget.swift; path = Sources/ConstraintDirectionalInsetTarget.swift; sourceTree = "<group>"; };
 		2D7CB5F59B37185000219DCEF0C593E9 /* XJBaseViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XJBaseViewController.swift; path = XJBaseFramework/Classes/XJUIKit/XJBaseViewController.swift; sourceTree = "<group>"; };
@@ -160,8 +161,9 @@
 		369D27D3600C005824CA09C2CDC31912 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		3711220FDB2DBC8C1D4EF8FB63089A9E /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
 		3752A2893037BCCAAADB7828F3563EDD /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		3A073C042998F69C00EBDEFC /* XJEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = XJEmptyStateView.swift; path = XJBaseFramework/Classes/XJUIKit/XJEmptyStateView.swift; sourceTree = "<group>"; };
 		3C97091FA45006CE17D9A2D76C2DF179 /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Sources/ConstraintView.swift; sourceTree = "<group>"; };
-		442881E8222C1AC39DAF6B85FB1B3533 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		442881E8222C1AC39DAF6B85FB1B3533 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		445BB697177040B24ADD4E2694CF55F9 /* UIColor_Hex_Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor_Hex_Swift-umbrella.h"; sourceTree = "<group>"; };
 		470D0C6F4D541F7D4C251EB5CA850C6E /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Sources/Constraint.swift; sourceTree = "<group>"; };
 		4C56FC7AA1281D0702F0995BE98821F7 /* XJBaseFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XJBaseFramework.modulemap; sourceTree = "<group>"; };
@@ -198,13 +200,13 @@
 		97BE2E3DC57E3F346B31C708FE7414EE /* XJColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XJColor.swift; path = XJBaseFramework/Classes/XJUIKit/XJColor.swift; sourceTree = "<group>"; };
 		97E8900B35F545F2FA42328532D26416 /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Sources/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
 		9C09193A052927B31C8B55270AC578DC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EA3DE3410C81656AF5F18051BFD63BF /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Sources/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
 		A121949385EDA68E45B0CCA7D36B9829 /* Pods-XJBaseFramework_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XJBaseFramework_Tests-umbrella.h"; sourceTree = "<group>"; };
 		A2DC101E89178A95F2957E0CC77FD267 /* UIColor_Hex_Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor_Hex_Swift-prefix.pch"; sourceTree = "<group>"; };
 		A7653467932180AC81E04EBF0B5D1B28 /* HEXColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HEXColor.h; path = HEXColor/HEXColor.h; sourceTree = "<group>"; };
 		AAF59CE8F3FDA5DFE484188172DAA076 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Sources/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
-		AD00FBDDE31A82196F6AFBA7525AFBF9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		AD00FBDDE31A82196F6AFBA7525AFBF9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		AE7F6E15C0AB9154E7D1128EDF3E03B1 /* Pods-XJBaseFramework_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-XJBaseFramework_Tests"; path = Pods_XJBaseFramework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF4E449E99C82BC5BE951C5211D1492E /* XJTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XJTableView.swift; path = XJBaseFramework/Classes/XJUIKit/XJTableView.swift; sourceTree = "<group>"; };
 		AFA3D693C506C7DD8534A45DE9404CC9 /* XJBaseFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XJBaseFramework-umbrella.h"; sourceTree = "<group>"; };
@@ -354,6 +356,7 @@
 				AF4E449E99C82BC5BE951C5211D1492E /* XJTableView.swift */,
 				E44F31F9AABE7B1A750359FBF00B50DD /* XJUIKitConfigure.swift */,
 				03B5FC7868D22987274247CA84304267 /* XJView.swift */,
+				3A073C042998F69C00EBDEFC /* XJEmptyStateView.swift */,
 			);
 			name = XJUIKit;
 			sourceTree = "<group>";
@@ -403,7 +406,6 @@
 				3752A2893037BCCAAADB7828F3563EDD /* MBProgressHUD.m */,
 				EF15641EC932922E30501FC6A46F5CC9 /* Support Files */,
 			);
-			name = MBProgressHUD;
 			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
@@ -441,7 +443,6 @@
 				E9B3913A1196DD97AFC5BB34D4A632CC /* UIColorInputError.swift */,
 				DBF82B09795C8506517D9E0143E10DF4 /* Support Files */,
 			);
-			name = UIColor_Hex_Swift;
 			path = UIColor_Hex_Swift;
 			sourceTree = "<group>";
 		};
@@ -497,7 +498,6 @@
 				E5A1CF284BE3B370AD34732439E9A79D /* UILayoutSupport+Extensions.swift */,
 				BB48927819A8DA0D794081BA6E14F504 /* Support Files */,
 			);
-			name = SnapKit;
 			path = SnapKit;
 			sourceTree = "<group>";
 		};
@@ -913,6 +913,7 @@
 			files = (
 				9459569D05F12AA66986AC6077C74499 /* XJBaseFramework-dummy.m in Sources */,
 				B95B1205F77D7A2DA71EC9E0FF0580FD /* XJBaseNavViewController.swift in Sources */,
+				3A073C052998F69C00EBDEFC /* XJEmptyStateView.swift in Sources */,
 				79BF3805F927B09749BAA35D8237DCDA /* XJBaseViewController.swift in Sources */,
 				5C7907BE5353C592D319B7CC3AAC7D4B /* XJButton.swift in Sources */,
 				8CB34BCF44456DA9BEE23E3DAF8352DE /* XJCollectionView.swift in Sources */,
@@ -1293,8 +1294,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

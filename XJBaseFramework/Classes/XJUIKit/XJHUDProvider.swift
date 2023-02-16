@@ -17,7 +17,7 @@ public class XJHudProvider {
     ///   - view: 在哪个视图上显示
     public static func showLoading(withText text: String? = XJUIKitConfigure.XJHud.loadingText, inView view: UIView) {
         let hud = MBProgressHUD.showAdded(to: view, animated: true)
-        hud.mode = .annularDeterminate
+        hud.mode = .indeterminate
         hud.label.text = text
     }
     

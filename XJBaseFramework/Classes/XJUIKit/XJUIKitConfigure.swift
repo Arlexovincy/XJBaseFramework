@@ -19,4 +19,21 @@ public struct XJUIKitConfigure {
         public static let delayHideSecond: TimeInterval = 1.5
         
     }
+    
+    public struct XJEmptyView {
+        
+        /// 按钮圆角
+        public static let buttonCornerRadius: CGFloat = 5
+        
+        /// stackView元素的间隔大小
+        public static let stackViewSpacing: CGFloat = 10
+        
+        /// 图片宽度
+        public static let imageWith: CGFloat = 100
+        
+        /// 图片高度
+        public static let imageHeight: CGFloat = 100
+        
+        
+    }
 }
