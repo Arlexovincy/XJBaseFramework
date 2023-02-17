@@ -16,7 +16,7 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "11.0"
   },
   "subspecs": [
     {
@@ -28,6 +28,15 @@
         ],
         "MBProgressHUD": [
           "~> 1.2.0"
+        ]
+      }
+    },
+    {
+      "name": "XJLoger",
+      "source_files": "XJBaseFramework/Classes/XJLoger/**",
+      "dependencies": {
+        "CocoaLumberjack/Swift": [
+
         ]
       }
     }

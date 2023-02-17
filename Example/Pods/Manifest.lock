@@ -1,9 +1,15 @@
 PODS:
+  - CocoaLumberjack/Core (3.8.0)
+  - CocoaLumberjack/Swift (3.8.0):
+    - CocoaLumberjack/Core
   - MBProgressHUD (1.2.0)
   - SnapKit (5.6.0)
   - UIColor_Hex_Swift (5.1.7)
   - XJBaseFramework (0.1.0):
+    - XJBaseFramework/XJLoger (= 0.1.0)
     - XJBaseFramework/XJUIKit (= 0.1.0)
+  - XJBaseFramework/XJLoger (0.1.0):
+    - CocoaLumberjack/Swift
   - XJBaseFramework/XJUIKit (0.1.0):
     - MBProgressHUD (~> 1.2.0)
     - UIColor_Hex_Swift (~> 5.1.7)
@@ -14,6 +20,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - CocoaLumberjack
     - MBProgressHUD
     - SnapKit
     - UIColor_Hex_Swift
@@ -23,10 +30,11 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
+  CocoaLumberjack: 78abfb691154e2a9df8ded4350d504ee19d90732
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
   UIColor_Hex_Swift: 31cd3e47440f07a20d2503a36bb0437a445b3c29
-  XJBaseFramework: 717f7141c6768b442718938a418dd074f34bf5ba
+  XJBaseFramework: e5031b5e1d1b118838c0a5ab1671377ef00d4a3c
 
 PODFILE CHECKSUM: 23180863dc843a454df975191be3328b8c9db262
 

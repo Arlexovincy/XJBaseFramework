@@ -18,6 +18,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        XJ_ILog("进入viewDidLoad")
         mainTableView.register(UITableViewCell.self, forCellReuseIdentifier: "MyCustomCell")
         dataArray.append("BaseViewController")
     }

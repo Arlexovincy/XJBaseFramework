@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import XJBaseFramework
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        XJLoger.shared.start()
+        XJ_ALog("---------启动应用--------------")
+        XJ_ILog("第一条日志输出")
         return true
     }
 
