@@ -20,6 +20,10 @@
   },
   "subspecs": [
     {
+      "name": "XJCore",
+      "source_files": "XJBaseFramework/Classes/XJCore/**"
+    },
+    {
       "name": "XJUIKit",
       "source_files": "XJBaseFramework/Classes/XJUIKit/**",
       "dependencies": {
@@ -28,6 +32,15 @@
         ],
         "MBProgressHUD": [
           "~> 1.2.0"
+        ]
+      }
+    },
+    {
+      "name": "XJFoundation",
+      "source_files": "XJBaseFramework/Classes/XJFoundation/**",
+      "dependencies": {
+        "XJBaseFramework/XJCore": [
+
         ]
       }
     },

@@ -11,6 +11,7 @@
 		00A2749F46C967ED4725A32357E3FB1B /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5224F45CAAA977A0C3F4801D4F20EE /* ConstraintLayoutSupport.swift */; };
 		04637C70546B34F93C3A1D79C3F78B37 /* ConstraintDirectionalInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D419B754FC9A7762260D7994BE1734 /* ConstraintDirectionalInsetTarget.swift */; };
 		0591132B5EA1BE4DDA268D8A9C3D0421 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A860E464FC27C009045317CCF6EB9A58 /* LayoutConstraint.swift */; };
+		060AD6F1270D89118AA31A73DCA81302 /* XJLogFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7C24DAB4EBD963B90B4110F7520457 /* XJLogFormatter.swift */; };
 		06E43B4751069B47B3BD4AFD936A57E3 /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0930E512B639806F5D7A90441C3AC4C /* ConstraintPriority.swift */; };
 		0833E66E7F19849322305D67777B77DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B92BE98A3FECD223AC2BC418D1F6D1E /* Foundation.framework */; };
 		0894EB49C27FC406D15CBFD3B13EF9B8 /* DDASLLogCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = A9A3171C2BB078022BAF0E5D58E7683E /* DDASLLogCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -20,38 +21,46 @@
 		14A72A70D928B3FB748E74BA584BE168 /* DDASLLogCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C23BDF24A9578EC6F9C53A804C0838B /* DDASLLogCapture.m */; };
 		183D8B3E057B885EA7DF9A8CDCCE9029 /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8916D729B8DED98B5FB5817E28001A8B /* ConstraintMakerRelatable.swift */; };
 		1B29D70B72D29865E4F6F0B1B2439DA4 /* Pods-XJBaseFramework_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 326D1B127B0E7A92943AECAA40B17CDD /* Pods-XJBaseFramework_Tests-dummy.m */; };
-		1ED88900EB40EC1F461B9D5F389974D7 /* XJBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA939F8E0723A4A0729B0E7721C6D74 /* XJBaseViewController.swift */; };
 		1F34C651DAD3032F45A73AD24A60F2A2 /* DDLegacyMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = D5DCBAD48157AC0B10673B798E6C7DDA /* DDLegacyMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1F8D7BA4FD118DAE1C9EBA676DDFE6A8 /* DDTTYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CBC05CE527C8F296D4624FF00F8A12D /* DDTTYLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		200DC2D4BBF146E6E68A6F0637C63C9B /* DDContextFilterLogFormatter+Deprecated.h in Headers */ = {isa = PBXBuildFile; fileRef = 6752422E8EE45CD3504096071392011E /* DDContextFilterLogFormatter+Deprecated.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		20A92FC736588CF2C5688AFD384EAD9D /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4418A681A6F9D6677C15C66713A0F380 /* UIColorExtension.swift */; };
-		21BC70833270DA26B6950FB7EEB4438D /* XJBaseFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91392FBD6AC6EE0350F131DE34393262 /* XJBaseFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		220D6AC9B1B1EC8EFFB204F9C1EAC842 /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10E873525046A07F99A1890491E1F9F /* ConstraintMakerEditable.swift */; };
+		23A11C080402CDCFC32271210B04D58F /* XJButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75182BCBE27D4B869D52006EAC1FDAF /* XJButton.swift */; };
 		256558233B40ACA6818F143BBC5B8017 /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E63C55F6CD80044077FD72ECB519FB /* ConstraintViewDSL.swift */; };
 		265E755F67035482ED7C735E15DAF55F /* CocoaLumberjack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C284E6D1EBCB26B51E6F55A53CBD87E /* CocoaLumberjack.swift */; };
+		26CC048909B347CB51AFE1C3CD6956FA /* XJArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AFB4358CFE85087A7E515BBAA7C342 /* XJArrayExtensions.swift */; };
+		28788E66DC0563D2D392AB6BCECEA039 /* XJBaseNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E0F2DD9F2AEA94ED27843580924201 /* XJBaseNavViewController.swift */; };
 		2BEA73E45A21B4F7F80B429B63C3DE67 /* DDFileLogger+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = A95D1FCAF4D8F8FD7D2C3307E7E40882 /* DDFileLogger+Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		2D4DE39553A74E0BBF89F47A79440E6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B92BE98A3FECD223AC2BC418D1F6D1E /* Foundation.framework */; };
 		2EB12379C6E40E835D1AC08FAADFC392 /* UIColor_Hex_Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A4CB8767E01525510CB7CB172FCEFA /* UIColor_Hex_Swift-dummy.m */; };
+		30AADC87AB20BFB3899951AD52CDCDE8 /* XJTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A576A44A0B776691B612FF5DFB72772B /* XJTableView.swift */; };
+		3124C8B2515217A1F9076C3E785F48C0 /* XJBaseFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31CEA315D2A2F181E975FD15D5F8E1F4 /* XJBaseFramework-dummy.m */; };
+		315BFAACBC97B68CAC710BA33AD62776 /* XJHUDProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43B2B32BF01A73BAC2F0FDC7302365C /* XJHUDProvider.swift */; };
 		31998DC0CB34249072EE62476E351BF8 /* DDDispatchQueueLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = BCEA7CA552934C47779D8951A508AD16 /* DDDispatchQueueLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		33C4FFA21528576320F719FCBB5BC03C /* XJUIKitConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9697EA5F33BE85EF0441362B81D1A2 /* XJUIKitConfigure.swift */; };
 		3660B4F629053ABC3C1DF69366770289 /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25244605FBABF9129649CE18CA6D4E6D /* ConstraintConfig.swift */; };
 		36B207CCA7C2F61A8425B1A28E30AB0B /* DDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = CD38B497E8149556F1545F7D2F5BC13C /* DDMultiFormatter.m */; };
 		38B9D58E94D9C1CECD7E381C64A2329D /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B828816B4D46A6778E018E2894F0B87 /* UILayoutSupport+Extensions.swift */; };
-		3A073C09299E514700EBDEFC /* ViewController+ShakeExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A073C08299E514700EBDEFC /* ViewController+ShakeExt.swift */; };
-		3A073C0B299E550200EBDEFC /* XJLogFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A073C0A299E550200EBDEFC /* XJLogFormatter.swift */; };
-		3A073C0D299E5D0C00EBDEFC /* XJLogDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A073C0C299E5D0C00EBDEFC /* XJLogDefine.swift */; };
-		3A073C0F299E64AA00EBDEFC /* XJLogApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A073C0E299E64AA00EBDEFC /* XJLogApi.swift */; };
+		3A073C17299FB6F700EBDEFC /* XJBoolExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A073C16299FB6F700EBDEFC /* XJBoolExtensions.swift */; };
+		3A073C19299FBCE600EBDEFC /* XJCharacterExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A073C18299FBCE600EBDEFC /* XJCharacterExtensions.swift */; };
+		3A073C1B29A0BF2000EBDEFC /* XJDictionaryExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A073C1A29A0BF2000EBDEFC /* XJDictionaryExtensions.swift */; };
+		3A073C1D29A0C63600EBDEFC /* XJDoubleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A073C1C29A0C63600EBDEFC /* XJDoubleExtensions.swift */; };
+		3A073C1F29A0CA2600EBDEFC /* XJFloatExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A073C1E29A0CA2600EBDEFC /* XJFloatExtensions.swift */; };
+		3A073C2129A0DBEA00EBDEFC /* XJFloatingPointExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A073C2029A0DBEA00EBDEFC /* XJFloatingPointExtensions.swift */; };
+		3A5D3A5329A0DF1300F50BD8 /* XJIntExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5D3A5229A0DF1300F50BD8 /* XJIntExtensions.swift */; };
+		3A5D3A5529A1C19400F50BD8 /* XJStringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5D3A5429A1C19400F50BD8 /* XJStringExtensions.swift */; };
 		3CA5D91621FF7E64597B5F1DD574EEC6 /* Pods-XJBaseFramework_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79198E794DA8A9ABFBF5CA820C215DA4 /* Pods-XJBaseFramework_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3DB2320AF24E5F4C92900577EE44878C /* UIColor_Hex_Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF51965E123EF43297EBC1F7F200CC2F /* UIColor_Hex_Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E13A70A87DEA8593A4E3F56777DD70B /* XJCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0636D5D9F564313E4B54C074233A94 /* XJCollectionView.swift */; };
 		3EEE359E3EA05A87BEABA426D6092571 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5B8F8D8AF337C1458A38BEB8FCC563 /* StringExtension.swift */; };
 		42B6ACFCF650183030867CB3EF345E95 /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F417A7FAAB820DA40184853D5996CB04 /* ConstraintMakerFinalizable.swift */; };
 		488C37EE2C2A945FA8FB3961EE3FC65E /* CLIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 151DE4576863660C6D7364C3230176FD /* CLIColor.m */; };
 		4BAD99B7394E225CEDBF94B8100BCC7F /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB65738732113DF5B4B56E14CA8BE441 /* ConstraintRelation.swift */; };
+		4D3334D39F3D700E0BAD83852CA7C6E6 /* ViewController+ShakeExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B592CE5D118F1D43BAD43965691DA7 /* ViewController+ShakeExt.swift */; };
 		4DA72FD7F1FB2C0449EDEF4B8A579807 /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2941D42451B6DCDFF0C3E2467B30EE0 /* ConstraintPriorityTarget.swift */; };
 		4EE2EC2F10C2D2BC999CE30C679575FB /* HEXColor.h in Headers */ = {isa = PBXBuildFile; fileRef = F95A38E9D7D2E0ADD99BAA6EA9352007 /* HEXColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4F7ADAB76F659FA15973E8EE2D390D36 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD98ACC7A6E40DDB620663F2EDAAF78E /* UIKit.framework */; };
 		51FED3755177163ED30E8CA08B5A7111 /* CocoaLumberjack.h in Headers */ = {isa = PBXBuildFile; fileRef = 17B35BD61DCEACE3DDFD453CA25BA6A9 /* CocoaLumberjack.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		52B3774DEF481D9B843E1CE13A318750 /* XJLoger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D9835056AADE81C9BA71FF7F72DAA9 /* XJLoger.swift */; };
 		5380454C48A12A6E376122ABD8096968 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1235C6AF3518D9CA3AB07C9D57AB2544 /* ConstraintDescription.swift */; };
 		55E51F45F1E157D3B4942BA7252C277E /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B4C6784B500A86F33F9041DCE73055 /* ConstraintRelatableTarget.swift */; };
 		56A72F6D13D930C4A2568F24DEA33C8D /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = C104970D7CFE8E7C3FDF745ADBA98311 /* ConstraintLayoutSupportDSL.swift */; };
@@ -59,12 +68,9 @@
 		58C91B4AB36E6B16421106CA634C58EF /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B484CE4FEDC1EF8D8C67C95E10A9B7F /* MBProgressHUD-dummy.m */; };
 		5BAC1EF86D0E57E44E404B2796993561 /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AAB302F8306BED1231763B5DF1ED9632 /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5D36B99F3CAB1FC7337082D9581FECA6 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CE50459A51A5B76BA48DAC7F7DE2FF /* Debugging.swift */; };
-		5FBB8CAFA5090351CAF04F0346B6C8C4 /* XJButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43883C9785BE0005AB33822BCFDAF585 /* XJButton.swift */; };
 		604D3C93C17978C23600EC415949AB64 /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DF304B6F8D76C4107F056BED141F78 /* ConstraintInsets.swift */; };
 		611CEF7FF1EF9EA1BCEF6C73EEE3ACCF /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0727C0EA33A2E606F7B29A77915E38 /* ConstraintLayoutGuide.swift */; };
-		63D3555127A86A593FAC865B8F8A3187 /* XJCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1CE2149A093E7C5A4F11ED54796181 /* XJCollectionView.swift */; };
 		67E941CADB3CDDEEDF8CE4EE4A4A05BB /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B54C85F907BD28A0AF29782C54F6755 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		684C44CD20D37A88C30B089B0AA03666 /* XJEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCCD7931F9993266A4D0EE3DE25C509 /* XJEmptyStateView.swift */; };
 		68DAF93592E1F5DEDF0D26882F850BFD /* DDOSLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DF7F0A185522D1FDA4BA1DEA80EA23 /* DDOSLogger.m */; };
 		69DE75BA185BBAB5FDAA28321F3C849F /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C164F0B4E93397C8D154D22C73EE329C /* ConstraintItem.swift */; };
 		6AC1B881BB319C89AD023A02CDC8FC3D /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FB844B2FB9FE7FBC9A836C231FFEB9 /* ConstraintLayoutGuide+Extensions.swift */; };
@@ -72,28 +78,27 @@
 		6E87F520578C1F9D3BB3806840EBFCD6 /* DDContextFilterLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = A8F9EFE6FAE69B58EDBE1CEF18C7CE74 /* DDContextFilterLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6EAC8B6FA2D115DE708A58C601DD25E1 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0965B50B29E9713466B808711CBFF8B5 /* Constraint.swift */; };
 		6ED06C514240B57C67E8691B110B35D3 /* DDMultiFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = E2CA2F818C8C95EDAAB4983D5766968B /* DDMultiFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F5DBC73B4D04B9BE7D8015C26FF8943 /* XJLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BBAC546786E935C87BAC1B163FC0A4 /* XJLabel.swift */; };
 		72971B5127DF77F1BE1604BD6A2BF90A /* DDFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 064736878D71D9F2B02E0DD2EAB42316 /* DDFileLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72985C8FE2D442AFE567F631DE706F7B /* XJBaseFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8FA8E73FAE6D3C3F51B0E5A0AB412F0 /* XJBaseFramework-dummy.m */; };
+		7994B0C58A5027E687D4FF83F270C286 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B92BE98A3FECD223AC2BC418D1F6D1E /* Foundation.framework */; };
 		82B263AEF537791DEC3F166D1718C9A2 /* Pods-XJBaseFramework_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A121949385EDA68E45B0CCA7D36B9829 /* Pods-XJBaseFramework_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		852A1F9F57D5E2CFCC75FAD9DC55401C /* XJBaseFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D782BB3E27F5F739DC44466E55338CE /* XJBaseFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		88A5C0BE281EDAC69581AB73EF3DCB68 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DAC42F952D2150E5A989688183BF1F4 /* DDASLLogger.m */; };
-		8B26BF2F958A815DF09A0D6AC3BFB3FE /* XJBaseNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D85046180A930D9B128A8AE4FC84A3 /* XJBaseNavViewController.swift */; };
-		8E79A65A99E37128FEFD2636B1266711 /* XJTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB8653FD56181750733ED5FF8464087 /* XJTableView.swift */; };
+		8A0840C9C4A688151D75AF156BC97B97 /* XJLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5634517DDDAF324E9C0C0C3FA2BB186 /* XJLabel.swift */; };
 		8F73ECD186C2D48DE165790C29F54665 /* DDAssert.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CB55BC46C0C46C5CB85ED7FD03FCCB /* DDAssert.swift */; };
 		902E7500FCA4EFFADFDA02FFC5F06CDE /* CLIColor.h in Headers */ = {isa = PBXBuildFile; fileRef = D1260B185286A4CEB8801F8619684663 /* CLIColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		951E054B361755C2E621F4D8522296D4 /* DDOSLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DB7AD38008F1BD6B03802A66D9A9FEA /* DDOSLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		95E194A3AABB5407231E898B6686F73E /* ConstraintMakerRelatable+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049B7035169D414F0697C1DCB0F19A78 /* ConstraintMakerRelatable+Extensions.swift */; };
 		98F570DA48370453D648BD526FDAAEAA /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF53CD2A1DB031B6FB21EA132436512C /* LayoutConstraintItem.swift */; };
+		9AD568707A6BE08040DFE188CC644B35 /* XJColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BEB8BF23A4975B56F41B17934140B68 /* XJColor.swift */; };
 		9C9548E8B4675954566202F7B87FF0E6 /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E3F3584987F9630D3FD3F3AEB32F05 /* ConstraintConstantTarget.swift */; };
 		9DAAEE8B903FA6E2CBA5ED73747EC041 /* DDFileLogger+Buffering.h in Headers */ = {isa = PBXBuildFile; fileRef = B790898AF882CD5A75FAFF39F34B51CB /* DDFileLogger+Buffering.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9E02CFFEFE1BEC978B512286F03D31DA /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487E8D9D7602123E063D576797368310 /* ConstraintInsetTarget.swift */; };
 		A03FDA8BC5741880B1EF11AFD248EF48 /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB692A69C9DED7A2C5C55F6CD8F3B8EE /* ConstraintOffsetTarget.swift */; };
+		A22777C5007A95CEAE8A06945B68492C /* XJUIKitConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E87520EEF24A9FAA1BC02B247BF60DD /* XJUIKitConfigure.swift */; };
 		A3E3AB7C765C21AE17B1E6EE6560040C /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B47D97B8DF99939555266D79AF4D19F /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A5A8BF973BFE9C9304372A26C9F2E35B /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA940B1402051F863C00FC0B961BE803 /* ConstraintMakerExtendable.swift */; };
 		A777E95A971A560B829677808B28BA81 /* DDContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CE9AF53205082BA4C7CA0D41ADBFF3 /* DDContextFilterLogFormatter.m */; };
 		A7BD37505F10C8D98E413F0086DC0C51 /* DDLog+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C60921974ED145242FE2496FE1D1C2A /* DDLog+Combine.swift */; };
-		ACA8B0696974A31290D73D2541904378 /* XJHUDProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26AD7FEC083968E48B6EE938DD5158E /* XJHUDProvider.swift */; };
-		AEFD74708A7B39BF74FFC8C1290394BD /* XJView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8321E974FA74F2D1757F177547D1C46 /* XJView.swift */; };
 		AFAC1D4EBD53A048346210536741DF13 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE09B24E9EBBCE4A19480F7596D32DB0 /* CoreGraphics.framework */; };
 		B03B5579590D528CBA6D11FF638BC2AF /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79E74E44B21D6D928E6C7CA93CE216F /* Typealiases.swift */; };
 		B0D75AEEF50756B78FDED3E71A14150C /* DDFileLogger+Buffering.m in Sources */ = {isa = PBXBuildFile; fileRef = D57A634C50D51A4376EA8E9622B0D2CD /* DDFileLogger+Buffering.m */; };
@@ -104,24 +109,29 @@
 		B752F7C4BECB65894B1F49421049CE5F /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6758E231E7CA417AC05ED7BACF03CD1C /* ConstraintView.swift */; };
 		BCD2B62BBAAB3A21BC3A2D21127C0FB9 /* SwiftLogLevel.h in Headers */ = {isa = PBXBuildFile; fileRef = 38BECED11C3AD0CC7B151DB9773E6FD5 /* SwiftLogLevel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BD47CB74CD9B2B4D2D942C9B65748DFB /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E244F146F68DEFB45E323D9A97634E /* SnapKit-dummy.m */; };
+		BDC33729B995738C87DFF3BAC43D327A /* XJView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92818F35AFDA9EAB154D8AE082779B35 /* XJView.swift */; };
 		C615DE7F278A720EC3F40B0B438F7414 /* DDLog+LOGV.h in Headers */ = {isa = PBXBuildFile; fileRef = 3134EF99ED3C33815FFAEC6991C8DC1F /* DDLog+LOGV.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8FCF966373E07D8089DFC7FA45D8ABA /* XJLogDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB1C2FBD93F694B10117211F2DF89C6 /* XJLogDefine.swift */; };
 		CC97187E6D4D89D6B7D1C0D20218E394 /* CocoaLumberjack-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F73F2C4BF3BD9F7094DA05D9C380F1 /* CocoaLumberjack-dummy.m */; };
-		CFC3C76459CDA1A24B43A6A3F88CA2EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B92BE98A3FECD223AC2BC418D1F6D1E /* Foundation.framework */; };
 		D005E9A215793DD5E318F94052C45350 /* UIColorInputError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01761EE98D69FA1C3EA02C4832418E3 /* UIColorInputError.swift */; };
 		D032AC2D18990248048B5219856C747C /* DDASLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F918DA3DE256BDE894547551973361 /* DDASLLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D498013780CC61C59E0C5C0FEC56649B /* DDLoggerNames.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F09C7E78742985DACFB58D4AC7240B /* DDLoggerNames.m */; };
 		D8CDBB10C871D6B61AFC72F2284058FD /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDC037FEDE10DE84E4EFB2C5B69A3A2 /* DDLog.m */; };
+		DE36FED5B2893058BF6A2F66D7DB74A4 /* XJLoger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25591908E3A21B0F6EA1EC84B97D9448 /* XJLoger.swift */; };
 		E164D0DB90DEC45577708F074DED9EF7 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 651637F13D376420FF6C4BD35C6F3CAD /* DDTTYLogger.m */; };
 		E230A1E35F246226A458E51FAB686EDF /* DDLogMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 23FE15CC068A8FAFCB172E4832EBED83 /* DDLogMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E48CB570377E3344CE000AEB6A5C55C9 /* XJLogApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6710E85D9A5457F3C0F5717296B1F8 /* XJLogApi.swift */; };
 		E5E6F23348A4F4D393CF7054B49663AD /* DDAbstractDatabaseLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 132CDB0D7C7F6D2E977D86D52023029E /* DDAbstractDatabaseLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E609AAEEC683B650C6AECC403C756FCE /* XJNameSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080E3E641C9E986E2AF388E89832B3B5 /* XJNameSpace.swift */; };
+		E8B59B70D023BDD0242E97264CFA5164 /* XJBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB74390C8F8FDC6BFFA0F4BE2DF99709 /* XJBaseViewController.swift */; };
 		E98DC8FB2578E76A812E0C94BA10E1B1 /* ConstraintDirectionalInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9019DCE5D7BAFFA99ACEE408B7A122C /* ConstraintDirectionalInsets.swift */; };
-		EA53A11E549AF3C703B132014516EAB1 /* XJColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1EC81AED8F7980F422649827A6A52A /* XJColor.swift */; };
 		EB315C9BDF7CC0F352A3AF4923C9D703 /* DDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 87044C8E4E645E7E171D201597815D17 /* DDLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC0415288E892E344F2DF3D8A60CFA7B /* DDDispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1588A11D37DA5BEF6364E732235807C9 /* DDDispatchQueueLogFormatter.m */; };
 		EF21586EC3DFF6097A58EEC87376A0C1 /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69869B11D612FAF0A1542514ABB357DA /* ConstraintLayoutGuideDSL.swift */; };
 		F10A7A9E32700F3F8830519A37035264 /* CocoaLumberjack-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F80A3B80442B9A96962EEEE90E23CC2 /* CocoaLumberjack-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7C0960CEEB8F0C18F4503B405EAC08F /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE57E8219F8B3E0535F313A7F070820 /* ConstraintMultiplierTarget.swift */; };
 		F953AA9104BFE0C2DAD639EA60104A75 /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5744F6A5AD0C70D9776A3AC5BA69C8AC /* ConstraintView+Extensions.swift */; };
+		FA795A8A1F3F0287517CBCA463598686 /* XJEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC77AF8CE738000B971981DE71DB9E /* XJEmptyStateView.swift */; };
 		FAB03959C2357E325B19E08BC4775DAB /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0B96878EFD5574ACC9BAFB99F28F64 /* ConstraintMaker.swift */; };
 		FB1227598B1A07A4E0FC9AEC4F60E144 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B92BE98A3FECD223AC2BC418D1F6D1E /* Foundation.framework */; };
 		FB2B9FC5120D940A805CD89E524AC409 /* DDAssertMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = BDDD0907C1A43A239E13E9DAE96D4A67 /* DDAssertMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -131,68 +141,68 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0DF96F239D11C29F2BBBD4B7F552CA42 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A0CA3B0841360687C00D0E48D3E4C1B9;
-			remoteInfo = UIColor_Hex_Swift;
-		};
-		1FBBD08439BAE6B5DEBF51BF2F95A612 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 651154EF2897F735D8D202B501206F55;
-			remoteInfo = XJBaseFramework;
-		};
-		2D28A1306AE217E8FF34AA1CEC35E9E7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4FD3B36FDFFEF0FDF5C831210682EA36;
-			remoteInfo = "Pods-XJBaseFramework_Example";
-		};
-		32B981BAFB0D9A114EF672817C13784E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E95654B155D25890BE8E26081FCA8265;
-			remoteInfo = CocoaLumberjack;
-		};
-		4E660E802C7C12AB9508982477C8815D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
-			remoteInfo = MBProgressHUD;
-		};
-		89F3622F5030D901FA41295DA3D87D98 /* PBXContainerItemProxy */ = {
+		13CB5D4D147321A334B71D6F74B08D19 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 19622742EBA51E823D6DAE3F8CDBFAD4;
 			remoteInfo = SnapKit;
 		};
-		8A23E6693380EB93EF1310B4DA045B56 /* PBXContainerItemProxy */ = {
+		2C6443E6134335D308F9464066E65666 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
+			remoteInfo = MBProgressHUD;
+		};
+		5B0D9927BB8E55A4E526C2F71F2F9FD2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E95654B155D25890BE8E26081FCA8265;
 			remoteInfo = CocoaLumberjack;
 		};
-		CF953740BA2C6F4BFB7635441306BD63 /* PBXContainerItemProxy */ = {
+		7EE4F3230C05126217CECD863FB7E21A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 651154EF2897F735D8D202B501206F55;
+			remoteInfo = XJBaseFramework;
+		};
+		87EC697351533612B17CE8F143299F24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E95654B155D25890BE8E26081FCA8265;
+			remoteInfo = CocoaLumberjack;
+		};
+		9D1BA5567563E0CFFD250A4549DEAEFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FD3B36FDFFEF0FDF5C831210682EA36;
+			remoteInfo = "Pods-XJBaseFramework_Example";
+		};
+		9E6DC7587359CAD998B354A303559C85 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A0CA3B0841360687C00D0E48D3E4C1B9;
 			remoteInfo = UIColor_Hex_Swift;
 		};
-		F8960D9C344C0DAA91913A267D0DAEF5 /* PBXContainerItemProxy */ = {
+		ADA0CE94107729E445D98677348874E9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
 			remoteInfo = MBProgressHUD;
+		};
+		F1150F0B16C65542E9466FA86D45E997 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0CA3B0841360687C00D0E48D3E4C1B9;
+			remoteInfo = UIColor_Hex_Swift;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -200,7 +210,7 @@
 		018B1EFAEF3E888E0C2DE8D9398A1190 /* Pods-XJBaseFramework_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XJBaseFramework_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		049B7035169D414F0697C1DCB0F19A78 /* ConstraintMakerRelatable+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintMakerRelatable+Extensions.swift"; path = "Sources/ConstraintMakerRelatable+Extensions.swift"; sourceTree = "<group>"; };
 		064736878D71D9F2B02E0DD2EAB42316 /* DDFileLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDFileLogger.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDFileLogger.h; sourceTree = "<group>"; };
-		06D9835056AADE81C9BA71FF7F72DAA9 /* XJLoger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XJLoger.swift; path = XJBaseFramework/Classes/XJLoger/XJLoger.swift; sourceTree = "<group>"; };
+		080E3E641C9E986E2AF388E89832B3B5 /* XJNameSpace.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XJNameSpace.swift; path = XJBaseFramework/Classes/XJCore/XJNameSpace.swift; sourceTree = "<group>"; };
 		0965B50B29E9713466B808711CBFF8B5 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Sources/Constraint.swift; sourceTree = "<group>"; };
 		0AD27571189873AC4ACD9937B8932F91 /* Pods-XJBaseFramework_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XJBaseFramework_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		0B828816B4D46A6778E018E2894F0B87 /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Sources/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
@@ -213,45 +223,52 @@
 		1588A11D37DA5BEF6364E732235807C9 /* DDDispatchQueueLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDDispatchQueueLogFormatter.m; path = Sources/CocoaLumberjack/Extensions/DDDispatchQueueLogFormatter.m; sourceTree = "<group>"; };
 		17867FD40460CD184C1F0D4DB5830AD8 /* Pods-XJBaseFramework_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XJBaseFramework_Example-dummy.m"; sourceTree = "<group>"; };
 		17B35BD61DCEACE3DDFD453CA25BA6A9 /* CocoaLumberjack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CocoaLumberjack.h; path = "Sources/CocoaLumberjack/Supporting Files/CocoaLumberjack.h"; sourceTree = "<group>"; };
+		17B592CE5D118F1D43BAD43965691DA7 /* ViewController+ShakeExt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ViewController+ShakeExt.swift"; path = "XJBaseFramework/Classes/XJLoger/ViewController+ShakeExt.swift"; sourceTree = "<group>"; };
 		1A3618C0A9EE8A66E7F99A70FCEEA8FB /* CocoaLumberjack.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CocoaLumberjack.modulemap; sourceTree = "<group>"; };
 		1AD6963154793DF371F30324932EBB94 /* Pods-XJBaseFramework_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XJBaseFramework_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1BE57E8219F8B3E0535F313A7F070820 /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Sources/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
-		1CCCD7931F9993266A4D0EE3DE25C509 /* XJEmptyStateView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XJEmptyStateView.swift; path = XJBaseFramework/Classes/XJUIKit/XJEmptyStateView.swift; sourceTree = "<group>"; };
+		1D0636D5D9F564313E4B54C074233A94 /* XJCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XJCollectionView.swift; path = XJBaseFramework/Classes/XJUIKit/XJCollectionView.swift; sourceTree = "<group>"; };
 		21DF304B6F8D76C4107F056BED141F78 /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Sources/ConstraintInsets.swift; sourceTree = "<group>"; };
 		22F918DA3DE256BDE894547551973361 /* DDASLLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDASLLogger.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDASLLogger.h; sourceTree = "<group>"; };
 		23FE15CC068A8FAFCB172E4832EBED83 /* DDLogMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLogMacros.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDLogMacros.h; sourceTree = "<group>"; };
 		2517E946B9D29453B6DD0AA8FC4C2D63 /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDAbstractDatabaseLogger.m; path = Sources/CocoaLumberjack/DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
 		25244605FBABF9129649CE18CA6D4E6D /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Sources/ConstraintConfig.swift; sourceTree = "<group>"; };
+		25591908E3A21B0F6EA1EC84B97D9448 /* XJLoger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XJLoger.swift; path = XJBaseFramework/Classes/XJLoger/XJLoger.swift; sourceTree = "<group>"; };
 		25E244F146F68DEFB45E323D9A97634E /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
 		25FEBAE46955FD06753BE9D20CBC8215 /* MBProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MBProgressHUD-Info.plist"; sourceTree = "<group>"; };
+		271E6AD92E8CC73C7A3967320EE87A9F /* XJBaseFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XJBaseFramework.debug.xcconfig; sourceTree = "<group>"; };
 		27D419B754FC9A7762260D7994BE1734 /* ConstraintDirectionalInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDirectionalInsetTarget.swift; path = Sources/ConstraintDirectionalInsetTarget.swift; sourceTree = "<group>"; };
-		2A9697EA5F33BE85EF0441362B81D1A2 /* XJUIKitConfigure.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XJUIKitConfigure.swift; path = XJBaseFramework/Classes/XJUIKit/XJUIKitConfigure.swift; sourceTree = "<group>"; };
+		2BEB8BF23A4975B56F41B17934140B68 /* XJColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XJColor.swift; path = XJBaseFramework/Classes/XJUIKit/XJColor.swift; sourceTree = "<group>"; };
+		2CB1C2FBD93F694B10117211F2DF89C6 /* XJLogDefine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XJLogDefine.swift; path = XJBaseFramework/Classes/XJLoger/XJLogDefine.swift; sourceTree = "<group>"; };
 		2DB7AD38008F1BD6B03802A66D9A9FEA /* DDOSLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDOSLogger.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDOSLogger.h; sourceTree = "<group>"; };
 		2F80A3B80442B9A96962EEEE90E23CC2 /* CocoaLumberjack-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaLumberjack-umbrella.h"; sourceTree = "<group>"; };
 		3054A4B0F02AB4BF27341A2D76475BF0 /* ConstraintMakerPrioritizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPrioritizable.swift; path = Sources/ConstraintMakerPrioritizable.swift; sourceTree = "<group>"; };
 		3134EF99ED3C33815FFAEC6991C8DC1F /* DDLog+LOGV.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DDLog+LOGV.h"; path = "Sources/CocoaLumberjack/include/CocoaLumberjack/DDLog+LOGV.h"; sourceTree = "<group>"; };
+		31ABF9E2F10B75C9E4F4DFFEE60D4A24 /* XJBaseFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XJBaseFramework-Info.plist"; sourceTree = "<group>"; };
+		31CEA315D2A2F181E975FD15D5F8E1F4 /* XJBaseFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XJBaseFramework-dummy.m"; sourceTree = "<group>"; };
 		326D1B127B0E7A92943AECAA40B17CDD /* Pods-XJBaseFramework_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XJBaseFramework_Tests-dummy.m"; sourceTree = "<group>"; };
 		37F73F2C4BF3BD9F7094DA05D9C380F1 /* CocoaLumberjack-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaLumberjack-dummy.m"; sourceTree = "<group>"; };
 		38BECED11C3AD0CC7B151DB9773E6FD5 /* SwiftLogLevel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftLogLevel.h; path = Sources/CocoaLumberjackSwiftSupport/include/CocoaLumberjackSwiftSupport/SwiftLogLevel.h; sourceTree = "<group>"; };
-		3A073C08299E514700EBDEFC /* ViewController+ShakeExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ViewController+ShakeExt.swift"; path = "XJBaseFramework/Classes/XJLoger/ViewController+ShakeExt.swift"; sourceTree = "<group>"; };
-		3A073C0A299E550200EBDEFC /* XJLogFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = XJLogFormatter.swift; path = XJBaseFramework/Classes/XJLoger/XJLogFormatter.swift; sourceTree = "<group>"; };
-		3A073C0C299E5D0C00EBDEFC /* XJLogDefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = XJLogDefine.swift; path = XJBaseFramework/Classes/XJLoger/XJLogDefine.swift; sourceTree = "<group>"; };
-		3A073C0E299E64AA00EBDEFC /* XJLogApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = XJLogApi.swift; path = XJBaseFramework/Classes/XJLoger/XJLogApi.swift; sourceTree = "<group>"; };
-		3C1EC81AED8F7980F422649827A6A52A /* XJColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XJColor.swift; path = XJBaseFramework/Classes/XJUIKit/XJColor.swift; sourceTree = "<group>"; };
+		3A073C16299FB6F700EBDEFC /* XJBoolExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = XJBoolExtensions.swift; path = XJBaseFramework/Classes/XJFoundation/XJBoolExtensions.swift; sourceTree = "<group>"; };
+		3A073C18299FBCE600EBDEFC /* XJCharacterExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = XJCharacterExtensions.swift; path = XJBaseFramework/Classes/XJFoundation/XJCharacterExtensions.swift; sourceTree = "<group>"; };
+		3A073C1A29A0BF2000EBDEFC /* XJDictionaryExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = XJDictionaryExtensions.swift; path = XJBaseFramework/Classes/XJFoundation/XJDictionaryExtensions.swift; sourceTree = "<group>"; };
+		3A073C1C29A0C63600EBDEFC /* XJDoubleExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = XJDoubleExtensions.swift; path = XJBaseFramework/Classes/XJFoundation/XJDoubleExtensions.swift; sourceTree = "<group>"; };
+		3A073C1E29A0CA2600EBDEFC /* XJFloatExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = XJFloatExtensions.swift; path = XJBaseFramework/Classes/XJFoundation/XJFloatExtensions.swift; sourceTree = "<group>"; };
+		3A073C2029A0DBEA00EBDEFC /* XJFloatingPointExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = XJFloatingPointExtensions.swift; path = XJBaseFramework/Classes/XJFoundation/XJFloatingPointExtensions.swift; sourceTree = "<group>"; };
+		3A5D3A5229A0DF1300F50BD8 /* XJIntExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = XJIntExtensions.swift; path = XJBaseFramework/Classes/XJFoundation/XJIntExtensions.swift; sourceTree = "<group>"; };
+		3A5D3A5429A1C19400F50BD8 /* XJStringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = XJStringExtensions.swift; path = XJBaseFramework/Classes/XJFoundation/XJStringExtensions.swift; sourceTree = "<group>"; };
 		3C60921974ED145242FE2496FE1D1C2A /* DDLog+Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DDLog+Combine.swift"; path = "Sources/CocoaLumberjackSwift/DDLog+Combine.swift"; sourceTree = "<group>"; };
+		3EA8249749E5358A9BC00124D7A1F4C6 /* XJBaseFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = XJBaseFramework.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4021704D9B9E1702378A3AA864724EBE /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Sources/ConstraintAttributes.swift; sourceTree = "<group>"; };
-		43883C9785BE0005AB33822BCFDAF585 /* XJButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XJButton.swift; path = XJBaseFramework/Classes/XJUIKit/XJButton.swift; sourceTree = "<group>"; };
 		4418A681A6F9D6677C15C66713A0F380 /* UIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = HEXColor/UIColorExtension.swift; sourceTree = "<group>"; };
 		487E8D9D7602123E063D576797368310 /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Sources/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
-		4A3FE53F6997F6E68C2F08CA4FE455F0 /* XJBaseFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XJBaseFramework-Info.plist"; sourceTree = "<group>"; };
 		4B54C85F907BD28A0AF29782C54F6755 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		4C23BDF24A9578EC6F9C53A804C0838B /* DDASLLogCapture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDASLLogCapture.m; path = Sources/CocoaLumberjack/DDASLLogCapture.m; sourceTree = "<group>"; };
 		4C284E6D1EBCB26B51E6F55A53CBD87E /* CocoaLumberjack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CocoaLumberjack.swift; path = Sources/CocoaLumberjackSwift/CocoaLumberjack.swift; sourceTree = "<group>"; };
-		4DA939F8E0723A4A0729B0E7721C6D74 /* XJBaseViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XJBaseViewController.swift; path = XJBaseFramework/Classes/XJUIKit/XJBaseViewController.swift; sourceTree = "<group>"; };
 		52B4C6784B500A86F33F9041DCE73055 /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Sources/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
+		53AC77AF8CE738000B971981DE71DB9E /* XJEmptyStateView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XJEmptyStateView.swift; path = XJBaseFramework/Classes/XJUIKit/XJEmptyStateView.swift; sourceTree = "<group>"; };
 		5744F6A5AD0C70D9776A3AC5BA69C8AC /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Sources/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
 		58FA08FD4595D3CA9B2AA81405DE2EFA /* UIColor_Hex_Swift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UIColor_Hex_Swift; path = UIColor_Hex_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B1CE2149A093E7C5A4F11ED54796181 /* XJCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XJCollectionView.swift; path = XJBaseFramework/Classes/XJUIKit/XJCollectionView.swift; sourceTree = "<group>"; };
 		5B47D97B8DF99939555266D79AF4D19F /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
 		6158563BF1E15778AB0C2BAAD555EEA8 /* UIColor_Hex_Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UIColor_Hex_Swift-Info.plist"; sourceTree = "<group>"; };
 		651637F13D376420FF6C4BD35C6F3CAD /* DDTTYLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDTTYLogger.m; path = Sources/CocoaLumberjack/DDTTYLogger.m; sourceTree = "<group>"; };
@@ -259,17 +276,20 @@
 		6758E231E7CA417AC05ED7BACF03CD1C /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Sources/ConstraintView.swift; sourceTree = "<group>"; };
 		67FB844B2FB9FE7FBC9A836C231FFEB9 /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Sources/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
 		69869B11D612FAF0A1542514ABB357DA /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Sources/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
+		6D782BB3E27F5F739DC44466E55338CE /* XJBaseFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XJBaseFramework-umbrella.h"; sourceTree = "<group>"; };
 		6E9B31662A15A002A8DAFF7796EEE39C /* XJBaseFramework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XJBaseFramework; path = XJBaseFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		70E470ECAA3FBBF027BEED36222DD14C /* Pods-XJBaseFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XJBaseFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		70F09C7E78742985DACFB58D4AC7240B /* DDLoggerNames.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDLoggerNames.m; path = Sources/CocoaLumberjack/DDLoggerNames.m; sourceTree = "<group>"; };
 		72E63C55F6CD80044077FD72ECB519FB /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Sources/ConstraintViewDSL.swift; sourceTree = "<group>"; };
 		72E8D4BB758D61E38F85D5A313D077C1 /* Pods-XJBaseFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XJBaseFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		745762001D569D5289A38867B8A86E99 /* MBProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.release.xcconfig; sourceTree = "<group>"; };
+		7517AFF416FF6FD4DA412D4A55FA8D3A /* XJBaseFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XJBaseFramework.release.xcconfig; sourceTree = "<group>"; };
 		7527158777B73FA3E3354F4F42737A0D /* Pods-XJBaseFramework_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XJBaseFramework_Example-frameworks.sh"; sourceTree = "<group>"; };
 		7585709CAF43DA3301F0798781C4AF09 /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
-		78BBAC546786E935C87BAC1B163FC0A4 /* XJLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XJLabel.swift; path = XJBaseFramework/Classes/XJUIKit/XJLabel.swift; sourceTree = "<group>"; };
 		79198E794DA8A9ABFBF5CA820C215DA4 /* Pods-XJBaseFramework_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XJBaseFramework_Example-umbrella.h"; sourceTree = "<group>"; };
+		7A7C24DAB4EBD963B90B4110F7520457 /* XJLogFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XJLogFormatter.swift; path = XJBaseFramework/Classes/XJLoger/XJLogFormatter.swift; sourceTree = "<group>"; };
 		7B92BE98A3FECD223AC2BC418D1F6D1E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7C5A9D576D1713E790F6D876A1968D74 /* XJBaseFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XJBaseFramework-prefix.pch"; sourceTree = "<group>"; };
 		7EDC037FEDE10DE84E4EFB2C5B69A3A2 /* DDLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDLog.m; path = Sources/CocoaLumberjack/DDLog.m; sourceTree = "<group>"; };
 		80DD6400DC2001AAAD44A9367535D976 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
 		836843878603F3B353480CA7C7A4A164 /* MBProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
@@ -283,38 +303,38 @@
 		8B484CE4FEDC1EF8D8C67C95E10A9B7F /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
 		8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E1B563442103088D44DABB230388EE6 /* DDLoggerNames.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLoggerNames.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDLoggerNames.h; sourceTree = "<group>"; };
-		91392FBD6AC6EE0350F131DE34393262 /* XJBaseFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XJBaseFramework-umbrella.h"; sourceTree = "<group>"; };
+		92818F35AFDA9EAB154D8AE082779B35 /* XJView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XJView.swift; path = XJBaseFramework/Classes/XJUIKit/XJView.swift; sourceTree = "<group>"; };
 		9390634FB5DAE4BED4541CC5BCCA8269 /* UIColor_Hex_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UIColor_Hex_Swift.release.xcconfig; sourceTree = "<group>"; };
 		95F8356AC085D224FAC2D3620E0BBB21 /* Pods-XJBaseFramework_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XJBaseFramework_Tests-Info.plist"; sourceTree = "<group>"; };
 		979486118B3E90C08386079D57962701 /* SnapKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97CE50459A51A5B76BA48DAC7F7DE2FF /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Sources/Debugging.swift; sourceTree = "<group>"; };
-		9BAC0D17051D8704542FDB1AFAC959F3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9C09193A052927B31C8B55270AC578DC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		9CBC05CE527C8F296D4624FF00F8A12D /* DDTTYLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDTTYLogger.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDTTYLogger.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DAC42F952D2150E5A989688183BF1F4 /* DDASLLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDASLLogger.m; path = Sources/CocoaLumberjack/DDASLLogger.m; sourceTree = "<group>"; };
+		9E87520EEF24A9FAA1BC02B247BF60DD /* XJUIKitConfigure.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XJUIKitConfigure.swift; path = XJBaseFramework/Classes/XJUIKit/XJUIKitConfigure.swift; sourceTree = "<group>"; };
 		9F487C5A539CFD845E6490293B5F9F9D /* CocoaLumberjack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaLumberjack.debug.xcconfig; sourceTree = "<group>"; };
 		A121949385EDA68E45B0CCA7D36B9829 /* Pods-XJBaseFramework_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XJBaseFramework_Tests-umbrella.h"; sourceTree = "<group>"; };
 		A1A0579E603D7792616C08C74FEA3A1C /* DDFileLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDFileLogger.m; path = Sources/CocoaLumberjack/DDFileLogger.m; sourceTree = "<group>"; };
+		A43B2B32BF01A73BAC2F0FDC7302365C /* XJHUDProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XJHUDProvider.swift; path = XJBaseFramework/Classes/XJUIKit/XJHUDProvider.swift; sourceTree = "<group>"; };
+		A576A44A0B776691B612FF5DFB72772B /* XJTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XJTableView.swift; path = XJBaseFramework/Classes/XJUIKit/XJTableView.swift; sourceTree = "<group>"; };
 		A860E464FC27C009045317CCF6EB9A58 /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Sources/LayoutConstraint.swift; sourceTree = "<group>"; };
-		A8912D36604C4AF94B6D647E0B871F78 /* XJBaseFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XJBaseFramework-prefix.pch"; sourceTree = "<group>"; };
 		A8F9EFE6FAE69B58EDBE1CEF18C7CE74 /* DDContextFilterLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDContextFilterLogFormatter.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDContextFilterLogFormatter.h; sourceTree = "<group>"; };
 		A95D1FCAF4D8F8FD7D2C3307E7E40882 /* DDFileLogger+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DDFileLogger+Internal.h"; path = "Sources/CocoaLumberjack/DDFileLogger+Internal.h"; sourceTree = "<group>"; };
 		A9A3171C2BB078022BAF0E5D58E7683E /* DDASLLogCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDASLLogCapture.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDASLLogCapture.h; sourceTree = "<group>"; };
 		AA1512B3EC59AFCE433B28D7853275FE /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
 		AAB302F8306BED1231763B5DF1ED9632 /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		AB74390C8F8FDC6BFFA0F4BE2DF99709 /* XJBaseViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XJBaseViewController.swift; path = XJBaseFramework/Classes/XJUIKit/XJBaseViewController.swift; sourceTree = "<group>"; };
 		ABDF3180BB3DE4B5CBBF0F5019DDE31B /* CocoaLumberjack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaLumberjack.release.xcconfig; sourceTree = "<group>"; };
 		AE0923BFB8EFB29A3319247CEFA62398 /* CocoaLumberjack-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaLumberjack-prefix.pch"; sourceTree = "<group>"; };
 		AE7F6E15C0AB9154E7D1128EDF3E03B1 /* Pods-XJBaseFramework_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-XJBaseFramework_Tests"; path = Pods_XJBaseFramework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF51965E123EF43297EBC1F7F200CC2F /* UIColor_Hex_Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor_Hex_Swift-umbrella.h"; sourceTree = "<group>"; };
 		B0AC7C77E79CB78F9B4787BF3169A71F /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapKit.modulemap; sourceTree = "<group>"; };
 		B10E873525046A07F99A1890491E1F9F /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Sources/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
-		B26AD7FEC083968E48B6EE938DD5158E /* XJHUDProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XJHUDProvider.swift; path = XJBaseFramework/Classes/XJUIKit/XJHUDProvider.swift; sourceTree = "<group>"; };
-		B58CC8C7BA47FB36E8B55C6F8B5D5B90 /* XJBaseFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XJBaseFramework.debug.xcconfig; sourceTree = "<group>"; };
-		B6B51BBABEE596298D9859CEA4AD8402 /* XJBaseFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = XJBaseFramework.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B713F85301FAA80093B94AE831A76151 /* XJBaseFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XJBaseFramework.modulemap; sourceTree = "<group>"; };
+		B177F015C92CB56DA3665575AFBE499B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B790898AF882CD5A75FAFF39F34B51CB /* DDFileLogger+Buffering.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DDFileLogger+Buffering.h"; path = "Sources/CocoaLumberjack/include/CocoaLumberjack/DDFileLogger+Buffering.h"; sourceTree = "<group>"; };
 		B8DF7F0A185522D1FDA4BA1DEA80EA23 /* DDOSLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDOSLogger.m; path = Sources/CocoaLumberjack/DDOSLogger.m; sourceTree = "<group>"; };
+		B9AFB4358CFE85087A7E515BBAA7C342 /* XJArrayExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XJArrayExtensions.swift; path = XJBaseFramework/Classes/XJFoundation/XJArrayExtensions.swift; sourceTree = "<group>"; };
 		BCEA7CA552934C47779D8951A508AD16 /* DDDispatchQueueLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDDispatchQueueLogFormatter.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDDispatchQueueLogFormatter.h; sourceTree = "<group>"; };
 		BD0B96878EFD5574ACC9BAFB99F28F64 /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Sources/ConstraintMaker.swift; sourceTree = "<group>"; };
 		BDDD0907C1A43A239E13E9DAE96D4A67 /* DDAssertMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDAssertMacros.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDAssertMacros.h; sourceTree = "<group>"; };
@@ -322,34 +342,34 @@
 		C164F0B4E93397C8D154D22C73EE329C /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Sources/ConstraintItem.swift; sourceTree = "<group>"; };
 		C261436D14052AE3C35F240BCD155CAC /* CocoaLumberjack */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaLumberjack; path = CocoaLumberjack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2941D42451B6DCDFF0C3E2467B30EE0 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Sources/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
-		C397F68D2AC703A0F8A7A2D75BAE2950 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		C588C2D30D80C46C248D2833FC1A6068 /* UIColor_Hex_Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor_Hex_Swift-prefix.pch"; sourceTree = "<group>"; };
 		C711603CF24BE19A402E543159F304F9 /* Pods-XJBaseFramework_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XJBaseFramework_Example-Info.plist"; sourceTree = "<group>"; };
+		C75182BCBE27D4B869D52006EAC1FDAF /* XJButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XJButton.swift; path = XJBaseFramework/Classes/XJUIKit/XJButton.swift; sourceTree = "<group>"; };
 		CB65738732113DF5B4B56E14CA8BE441 /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Sources/ConstraintRelation.swift; sourceTree = "<group>"; };
 		CBE1D5FBC50B979ACB8FAAFCA5187A4D /* SnapKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.release.xcconfig; sourceTree = "<group>"; };
 		CD38B497E8149556F1545F7D2F5BC13C /* DDMultiFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDMultiFormatter.m; path = Sources/CocoaLumberjack/Extensions/DDMultiFormatter.m; sourceTree = "<group>"; };
-		CEB8653FD56181750733ED5FF8464087 /* XJTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XJTableView.swift; path = XJBaseFramework/Classes/XJUIKit/XJTableView.swift; sourceTree = "<group>"; };
 		D1260B185286A4CEB8801F8619684663 /* CLIColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLIColor.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/CLIColor.h; sourceTree = "<group>"; };
-		D2339FD8FD96AF877F359AAC861F5CC8 /* XJBaseFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XJBaseFramework.release.xcconfig; sourceTree = "<group>"; };
 		D2C4E6DBC7C32FADE849980833223529 /* Pods-XJBaseFramework_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XJBaseFramework_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D3E0F2DD9F2AEA94ED27843580924201 /* XJBaseNavViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XJBaseNavViewController.swift; path = XJBaseFramework/Classes/XJUIKit/XJBaseNavViewController.swift; sourceTree = "<group>"; };
 		D43E46E53EE52E69FBEAC39D1D104E8E /* Pods-XJBaseFramework_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XJBaseFramework_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D5634517DDDAF324E9C0C0C3FA2BB186 /* XJLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XJLabel.swift; path = XJBaseFramework/Classes/XJUIKit/XJLabel.swift; sourceTree = "<group>"; };
 		D57A634C50D51A4376EA8E9622B0D2CD /* DDFileLogger+Buffering.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "DDFileLogger+Buffering.m"; path = "Sources/CocoaLumberjack/Extensions/DDFileLogger+Buffering.m"; sourceTree = "<group>"; };
 		D5DCBAD48157AC0B10673B798E6C7DDA /* DDLegacyMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLegacyMacros.h; path = "Sources/CocoaLumberjack/Supporting Files/DDLegacyMacros.h"; sourceTree = "<group>"; };
 		D6A4CB8767E01525510CB7CB172FCEFA /* UIColor_Hex_Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor_Hex_Swift-dummy.m"; sourceTree = "<group>"; };
 		D6CE9AF53205082BA4C7CA0D41ADBFF3 /* DDContextFilterLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDContextFilterLogFormatter.m; path = Sources/CocoaLumberjack/Extensions/DDContextFilterLogFormatter.m; sourceTree = "<group>"; };
 		D79E74E44B21D6D928E6C7CA93CE216F /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Sources/Typealiases.swift; sourceTree = "<group>"; };
-		D8321E974FA74F2D1757F177547D1C46 /* XJView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XJView.swift; path = XJBaseFramework/Classes/XJUIKit/XJView.swift; sourceTree = "<group>"; };
-		D8FA8E73FAE6D3C3F51B0E5A0AB412F0 /* XJBaseFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XJBaseFramework-dummy.m"; sourceTree = "<group>"; };
 		D9480D7638635D6225D60AD2568791D7 /* Pods-XJBaseFramework_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XJBaseFramework_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D9ECA2A4C6FEC53BD74309385AAA3DFB /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		DB692A69C9DED7A2C5C55F6CD8F3B8EE /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Sources/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
 		DBD92FC63B7C6D10F2142FCC99E90D44 /* SnapKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.debug.xcconfig; sourceTree = "<group>"; };
+		DD6710E85D9A5457F3C0F5717296B1F8 /* XJLogApi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XJLogApi.swift; path = XJBaseFramework/Classes/XJLoger/XJLogApi.swift; sourceTree = "<group>"; };
 		DD98ACC7A6E40DDB620663F2EDAAF78E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		DEF1E3236FBA67596F51AB052275533F /* SnapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnapKit-Info.plist"; sourceTree = "<group>"; };
 		DF2DC5308B530411253E5B9B277A7C14 /* UIColor_Hex_Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UIColor_Hex_Swift.modulemap; sourceTree = "<group>"; };
-		E0D85046180A930D9B128A8AE4FC84A3 /* XJBaseNavViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XJBaseNavViewController.swift; path = XJBaseFramework/Classes/XJUIKit/XJBaseNavViewController.swift; sourceTree = "<group>"; };
 		E2CA2F818C8C95EDAAB4983D5766968B /* DDMultiFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDMultiFormatter.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDMultiFormatter.h; sourceTree = "<group>"; };
+		E42767732002F29340257B46D6208C65 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		E6CB55BC46C0C46C5CB85ED7FD03FCCB /* DDAssert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DDAssert.swift; path = Sources/CocoaLumberjackSwift/DDAssert.swift; sourceTree = "<group>"; };
+		EB8CB02FAAFC37936B88D3F7D4AF961A /* XJBaseFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XJBaseFramework.modulemap; sourceTree = "<group>"; };
 		EE09B24E9EBBCE4A19480F7596D32DB0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		EF5224F45CAAA977A0C3F4801D4F20EE /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Sources/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
 		EF53CD2A1DB031B6FB21EA132436512C /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Sources/LayoutConstraintItem.swift; sourceTree = "<group>"; };
@@ -389,14 +409,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BEBA211FDE05A307FE9EB7FA57F1CD81 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CFC3C76459CDA1A24B43A6A3F88CA2EF /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D6DC8F0C2894774845C1DD2E7CA07B0C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -423,21 +435,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FCF9A433D8706A654FD3428961E7D0A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7994B0C58A5027E687D4FF83F270C286 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		08F0B13EED8282F76A16D8FD87AF09CB /* XJLoger */ = {
-			isa = PBXGroup;
-			children = (
-				06D9835056AADE81C9BA71FF7F72DAA9 /* XJLoger.swift */,
-				3A073C0C299E5D0C00EBDEFC /* XJLogDefine.swift */,
-				3A073C0E299E64AA00EBDEFC /* XJLogApi.swift */,
-				3A073C0A299E550200EBDEFC /* XJLogFormatter.swift */,
-				3A073C08299E514700EBDEFC /* ViewController+ShakeExt.swift */,
-			);
-			name = XJLoger;
-			sourceTree = "<group>";
-		};
 		15F50BDDCD336247DF18B7B7887AF6D7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -463,6 +471,20 @@
 				88C2F2EF5157CF9F44385E19F1BE85BF /* Support Files */,
 			);
 			path = UIColor_Hex_Swift;
+			sourceTree = "<group>";
+		};
+		24580EF2CE29997D404C426ED784DBA2 /* XJBaseFramework */ = {
+			isa = PBXGroup;
+			children = (
+				A1DC9EFD587CF74ABBC667F63AB744A2 /* Pod */,
+				4E8F9C0039E14E53F514922B02930A4A /* Support Files */,
+				5132D4218D90C3982EE27744D98403AE /* XJCore */,
+				CD91A94997480CD9EDCE52EAFC464649 /* XJFoundation */,
+				A9AAF37B9DCF7B889C9CD497B16EAE8C /* XJLoger */,
+				EB27FA1D61FA44D5B64A9D1659557856 /* XJUIKit */,
+			);
+			name = XJBaseFramework;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		2FB8E06D8473B8AFB10994CD623F54BD /* Core */ = {
@@ -548,6 +570,21 @@
 			name = Swift;
 			sourceTree = "<group>";
 		};
+		4E8F9C0039E14E53F514922B02930A4A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB8CB02FAAFC37936B88D3F7D4AF961A /* XJBaseFramework.modulemap */,
+				31CEA315D2A2F181E975FD15D5F8E1F4 /* XJBaseFramework-dummy.m */,
+				31ABF9E2F10B75C9E4F4DFFEE60D4A24 /* XJBaseFramework-Info.plist */,
+				7C5A9D576D1713E790F6D876A1968D74 /* XJBaseFramework-prefix.pch */,
+				6D782BB3E27F5F739DC44466E55338CE /* XJBaseFramework-umbrella.h */,
+				271E6AD92E8CC73C7A3967320EE87A9F /* XJBaseFramework.debug.xcconfig */,
+				7517AFF416FF6FD4DA412D4A55FA8D3A /* XJBaseFramework.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XJBaseFramework";
+			sourceTree = "<group>";
+		};
 		4F5C4BE34ACF4D7E1C9D27A3522696FE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -561,6 +598,14 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/MBProgressHUD";
+			sourceTree = "<group>";
+		};
+		5132D4218D90C3982EE27744D98403AE /* XJCore */ = {
+			isa = PBXGroup;
+			children = (
+				080E3E641C9E986E2AF388E89832B3B5 /* XJNameSpace.swift */,
+			);
+			name = XJCore;
 			sourceTree = "<group>";
 		};
 		6B1E1B499F156E9E908AAED68A26EB1A /* Pods-XJBaseFramework_Tests */ = {
@@ -588,18 +633,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		7CB2CD9E9E61F95CDBB216DFC21D7AA1 /* XJBaseFramework */ = {
-			isa = PBXGroup;
-			children = (
-				CAA007C27F05B7A09F9509DA45CF52C8 /* Pod */,
-				8C1E761790B3D983BF627BDE3E4B7BCA /* Support Files */,
-				08F0B13EED8282F76A16D8FD87AF09CB /* XJLoger */,
-				950745EB5076AF091D0504316C8B2B9D /* XJUIKit */,
-			);
-			name = XJBaseFramework;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		88C2F2EF5157CF9F44385E19F1BE85BF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -615,37 +648,14 @@
 			path = "../Target Support Files/UIColor_Hex_Swift";
 			sourceTree = "<group>";
 		};
-		8C1E761790B3D983BF627BDE3E4B7BCA /* Support Files */ = {
+		A1DC9EFD587CF74ABBC667F63AB744A2 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				B713F85301FAA80093B94AE831A76151 /* XJBaseFramework.modulemap */,
-				D8FA8E73FAE6D3C3F51B0E5A0AB412F0 /* XJBaseFramework-dummy.m */,
-				4A3FE53F6997F6E68C2F08CA4FE455F0 /* XJBaseFramework-Info.plist */,
-				A8912D36604C4AF94B6D647E0B871F78 /* XJBaseFramework-prefix.pch */,
-				91392FBD6AC6EE0350F131DE34393262 /* XJBaseFramework-umbrella.h */,
-				B58CC8C7BA47FB36E8B55C6F8B5D5B90 /* XJBaseFramework.debug.xcconfig */,
-				D2339FD8FD96AF877F359AAC861F5CC8 /* XJBaseFramework.release.xcconfig */,
+				E42767732002F29340257B46D6208C65 /* LICENSE */,
+				B177F015C92CB56DA3665575AFBE499B /* README.md */,
+				3EA8249749E5358A9BC00124D7A1F4C6 /* XJBaseFramework.podspec */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/XJBaseFramework";
-			sourceTree = "<group>";
-		};
-		950745EB5076AF091D0504316C8B2B9D /* XJUIKit */ = {
-			isa = PBXGroup;
-			children = (
-				E0D85046180A930D9B128A8AE4FC84A3 /* XJBaseNavViewController.swift */,
-				4DA939F8E0723A4A0729B0E7721C6D74 /* XJBaseViewController.swift */,
-				43883C9785BE0005AB33822BCFDAF585 /* XJButton.swift */,
-				5B1CE2149A093E7C5A4F11ED54796181 /* XJCollectionView.swift */,
-				3C1EC81AED8F7980F422649827A6A52A /* XJColor.swift */,
-				1CCCD7931F9993266A4D0EE3DE25C509 /* XJEmptyStateView.swift */,
-				B26AD7FEC083968E48B6EE938DD5158E /* XJHUDProvider.swift */,
-				78BBAC546786E935C87BAC1B163FC0A4 /* XJLabel.swift */,
-				CEB8653FD56181750733ED5FF8464087 /* XJTableView.swift */,
-				2A9697EA5F33BE85EF0441362B81D1A2 /* XJUIKitConfigure.swift */,
-				D8321E974FA74F2D1757F177547D1C46 /* XJView.swift */,
-			);
-			name = XJUIKit;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		A5093A26F9E047545AA90EE23331B015 /* CocoaLumberjack */ = {
@@ -656,6 +666,18 @@
 				4A066B06C9BDBEC68AE8AEA013D986AC /* Swift */,
 			);
 			path = CocoaLumberjack;
+			sourceTree = "<group>";
+		};
+		A9AAF37B9DCF7B889C9CD497B16EAE8C /* XJLoger */ = {
+			isa = PBXGroup;
+			children = (
+				17B592CE5D118F1D43BAD43965691DA7 /* ViewController+ShakeExt.swift */,
+				DD6710E85D9A5457F3C0F5717296B1F8 /* XJLogApi.swift */,
+				2CB1C2FBD93F694B10117211F2DF89C6 /* XJLogDefine.swift */,
+				25591908E3A21B0F6EA1EC84B97D9448 /* XJLoger.swift */,
+				7A7C24DAB4EBD963B90B4110F7520457 /* XJLogFormatter.swift */,
+			);
+			name = XJLoger;
 			sourceTree = "<group>";
 		};
 		B57AD4F5FC0E33ADDD8684A93730A3F1 /* SnapKit */ = {
@@ -732,21 +754,27 @@
 			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
-		CAA007C27F05B7A09F9509DA45CF52C8 /* Pod */ = {
+		CD91A94997480CD9EDCE52EAFC464649 /* XJFoundation */ = {
 			isa = PBXGroup;
 			children = (
-				C397F68D2AC703A0F8A7A2D75BAE2950 /* LICENSE */,
-				9BAC0D17051D8704542FDB1AFAC959F3 /* README.md */,
-				B6B51BBABEE596298D9859CEA4AD8402 /* XJBaseFramework.podspec */,
+				B9AFB4358CFE85087A7E515BBAA7C342 /* XJArrayExtensions.swift */,
+				3A073C16299FB6F700EBDEFC /* XJBoolExtensions.swift */,
+				3A073C18299FBCE600EBDEFC /* XJCharacterExtensions.swift */,
+				3A073C1A29A0BF2000EBDEFC /* XJDictionaryExtensions.swift */,
+				3A073C1C29A0C63600EBDEFC /* XJDoubleExtensions.swift */,
+				3A073C1E29A0CA2600EBDEFC /* XJFloatExtensions.swift */,
+				3A073C2029A0DBEA00EBDEFC /* XJFloatingPointExtensions.swift */,
+				3A5D3A5229A0DF1300F50BD8 /* XJIntExtensions.swift */,
+				3A5D3A5429A1C19400F50BD8 /* XJStringExtensions.swift */,
 			);
-			name = Pod;
+			name = XJFoundation;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				FD1D19AAB819A80C399071BE96784EA8 /* Development Pods */,
+				DFA8F2565CEEB8F15AA402CA5CC5F29A /* Development Pods */,
 				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
 				B62E9F2DA60ADF9C68EB06DEB8346501 /* Pods */,
 				4563C430C6E6AB34C1BFFAA730CFEC82 /* Products */,
@@ -769,6 +797,14 @@
 			path = "../Target Support Files/CocoaLumberjack";
 			sourceTree = "<group>";
 		};
+		DFA8F2565CEEB8F15AA402CA5CC5F29A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24580EF2CE29997D404C426ED784DBA2 /* XJBaseFramework */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		E8E67CDA2898D79EB75F3AFB39904E7C /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -780,12 +816,22 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		FD1D19AAB819A80C399071BE96784EA8 /* Development Pods */ = {
+		EB27FA1D61FA44D5B64A9D1659557856 /* XJUIKit */ = {
 			isa = PBXGroup;
 			children = (
-				7CB2CD9E9E61F95CDBB216DFC21D7AA1 /* XJBaseFramework */,
+				D3E0F2DD9F2AEA94ED27843580924201 /* XJBaseNavViewController.swift */,
+				AB74390C8F8FDC6BFFA0F4BE2DF99709 /* XJBaseViewController.swift */,
+				C75182BCBE27D4B869D52006EAC1FDAF /* XJButton.swift */,
+				1D0636D5D9F564313E4B54C074233A94 /* XJCollectionView.swift */,
+				2BEB8BF23A4975B56F41B17934140B68 /* XJColor.swift */,
+				53AC77AF8CE738000B971981DE71DB9E /* XJEmptyStateView.swift */,
+				A43B2B32BF01A73BAC2F0FDC7302365C /* XJHUDProvider.swift */,
+				D5634517DDDAF324E9C0C0C3FA2BB186 /* XJLabel.swift */,
+				A576A44A0B776691B612FF5DFB72772B /* XJTableView.swift */,
+				9E87520EEF24A9FAA1BC02B247BF60DD /* XJUIKitConfigure.swift */,
+				92818F35AFDA9EAB154D8AE082779B35 /* XJView.swift */,
 			);
-			name = "Development Pods";
+			name = XJUIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -829,14 +875,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		339A4569050703CA497F3A5D360DE386 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				21BC70833270DA26B6950FB7EEB4438D /* XJBaseFramework-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5D82C29ACD851E6EA219B34A73C961F5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -867,6 +905,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				82B263AEF537791DEC3F166D1718C9A2 /* Pods-XJBaseFramework_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE887B052F2753986B3F483C20E6DBBE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				852A1F9F57D5E2CFCC75FAD9DC55401C /* XJBaseFramework-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -903,11 +949,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				F224078E584F3EE1B6CE7F3B5BD45BCA /* PBXTargetDependency */,
-				A4D3C48FE7244802E8EA59162014F84F /* PBXTargetDependency */,
-				CA85A55BC3A264303DB903F3004D5BE5 /* PBXTargetDependency */,
-				96DB8CF261D4099EF117996730DC01DC /* PBXTargetDependency */,
-				8D7F97249BBBAE385FEC6A1848951908 /* PBXTargetDependency */,
+				3005298181A07F67FCAC963D6E82CE4B /* PBXTargetDependency */,
+				4781E3ACD3C3052644CE1794DC248A18 /* PBXTargetDependency */,
+				9F675C1E1690B94DF2552F0C1450A34D /* PBXTargetDependency */,
+				0339FA1A7FC920AD0BB61EB28064716E /* PBXTargetDependency */,
+				DBD55A9ACFB20B478F3037FCAA929AE2 /* PBXTargetDependency */,
 			);
 			name = "Pods-XJBaseFramework_Example";
 			productName = Pods_XJBaseFramework_Example;
@@ -926,7 +972,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				2B23882FA0931A4E42148D729B892027 /* PBXTargetDependency */,
+				7647C6D0A7C252AAA6E6FDA261C81B36 /* PBXTargetDependency */,
 			);
 			name = "Pods-XJBaseFramework_Tests";
 			productName = Pods_XJBaseFramework_Tests;
@@ -935,19 +981,19 @@
 		};
 		651154EF2897F735D8D202B501206F55 /* XJBaseFramework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5A55C29845C2ABC80DC5DD26F1F20143 /* Build configuration list for PBXNativeTarget "XJBaseFramework" */;
+			buildConfigurationList = 8E3E49D993465DCD0055E46FACEF3410 /* Build configuration list for PBXNativeTarget "XJBaseFramework" */;
 			buildPhases = (
-				339A4569050703CA497F3A5D360DE386 /* Headers */,
-				A296568332C8F3F3E7BD54F901C41DF6 /* Sources */,
-				BEBA211FDE05A307FE9EB7FA57F1CD81 /* Frameworks */,
-				B4E36B226851C152D805856413925DDC /* Resources */,
+				CE887B052F2753986B3F483C20E6DBBE /* Headers */,
+				F9EDA6F29100E5BF207D4EE9D222CA35 /* Sources */,
+				FCF9A433D8706A654FD3428961E7D0A4 /* Frameworks */,
+				EA117DB1572EE2BCB1721A95F593AAAE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0E739DC548DE2873A95C531A9ED61C82 /* PBXTargetDependency */,
-				A2CA7D26831870EA76A4EF90A467DC76 /* PBXTargetDependency */,
-				D9429CCA551B66154106A871DF24DCF5 /* PBXTargetDependency */,
+				63BD02179ABBDBA9F4271EB52AA0E493 /* PBXTargetDependency */,
+				3930D917F9D1552F5C35CF22CA5EAB95 /* PBXTargetDependency */,
+				D26EFBD7DD5616A18637050D490B1849 /* PBXTargetDependency */,
 			);
 			name = XJBaseFramework;
 			productName = XJBaseFramework;
@@ -1070,14 +1116,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B4E36B226851C152D805856413925DDC /* Resources */ = {
+		C0E0F7D28F4D633128D0F53BEAE34D3D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C0E0F7D28F4D633128D0F53BEAE34D3D /* Resources */ = {
+		EA117DB1572EE2BCB1721A95F593AAAE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1164,30 +1210,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A296568332C8F3F3E7BD54F901C41DF6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				72985C8FE2D442AFE567F631DE706F7B /* XJBaseFramework-dummy.m in Sources */,
-				8B26BF2F958A815DF09A0D6AC3BFB3FE /* XJBaseNavViewController.swift in Sources */,
-				1ED88900EB40EC1F461B9D5F389974D7 /* XJBaseViewController.swift in Sources */,
-				5FBB8CAFA5090351CAF04F0346B6C8C4 /* XJButton.swift in Sources */,
-				63D3555127A86A593FAC865B8F8A3187 /* XJCollectionView.swift in Sources */,
-				3A073C0B299E550200EBDEFC /* XJLogFormatter.swift in Sources */,
-				EA53A11E549AF3C703B132014516EAB1 /* XJColor.swift in Sources */,
-				3A073C0F299E64AA00EBDEFC /* XJLogApi.swift in Sources */,
-				684C44CD20D37A88C30B089B0AA03666 /* XJEmptyStateView.swift in Sources */,
-				ACA8B0696974A31290D73D2541904378 /* XJHUDProvider.swift in Sources */,
-				6F5DBC73B4D04B9BE7D8015C26FF8943 /* XJLabel.swift in Sources */,
-				3A073C09299E514700EBDEFC /* ViewController+ShakeExt.swift in Sources */,
-				3A073C0D299E5D0C00EBDEFC /* XJLogDefine.swift in Sources */,
-				52B3774DEF481D9B843E1CE13A318750 /* XJLoger.swift in Sources */,
-				8E79A65A99E37128FEFD2636B1266711 /* XJTableView.swift in Sources */,
-				33C4FFA21528576320F719FCBB5BC03C /* XJUIKitConfigure.swift in Sources */,
-				AEFD74708A7B39BF74FFC8C1290394BD /* XJView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C6B683180605EB4A4E4FB3B31A740282 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1224,62 +1246,96 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F9EDA6F29100E5BF207D4EE9D222CA35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D3334D39F3D700E0BAD83852CA7C6E6 /* ViewController+ShakeExt.swift in Sources */,
+				26CC048909B347CB51AFE1C3CD6956FA /* XJArrayExtensions.swift in Sources */,
+				3124C8B2515217A1F9076C3E785F48C0 /* XJBaseFramework-dummy.m in Sources */,
+				3A073C1B29A0BF2000EBDEFC /* XJDictionaryExtensions.swift in Sources */,
+				28788E66DC0563D2D392AB6BCECEA039 /* XJBaseNavViewController.swift in Sources */,
+				E8B59B70D023BDD0242E97264CFA5164 /* XJBaseViewController.swift in Sources */,
+				23A11C080402CDCFC32271210B04D58F /* XJButton.swift in Sources */,
+				3E13A70A87DEA8593A4E3F56777DD70B /* XJCollectionView.swift in Sources */,
+				9AD568707A6BE08040DFE188CC644B35 /* XJColor.swift in Sources */,
+				3A5D3A5329A0DF1300F50BD8 /* XJIntExtensions.swift in Sources */,
+				FA795A8A1F3F0287517CBCA463598686 /* XJEmptyStateView.swift in Sources */,
+				315BFAACBC97B68CAC710BA33AD62776 /* XJHUDProvider.swift in Sources */,
+				3A073C19299FBCE600EBDEFC /* XJCharacterExtensions.swift in Sources */,
+				3A5D3A5529A1C19400F50BD8 /* XJStringExtensions.swift in Sources */,
+				8A0840C9C4A688151D75AF156BC97B97 /* XJLabel.swift in Sources */,
+				E48CB570377E3344CE000AEB6A5C55C9 /* XJLogApi.swift in Sources */,
+				C8FCF966373E07D8089DFC7FA45D8ABA /* XJLogDefine.swift in Sources */,
+				DE36FED5B2893058BF6A2F66D7DB74A4 /* XJLoger.swift in Sources */,
+				3A073C1D29A0C63600EBDEFC /* XJDoubleExtensions.swift in Sources */,
+				060AD6F1270D89118AA31A73DCA81302 /* XJLogFormatter.swift in Sources */,
+				3A073C1F29A0CA2600EBDEFC /* XJFloatExtensions.swift in Sources */,
+				3A073C17299FB6F700EBDEFC /* XJBoolExtensions.swift in Sources */,
+				E609AAEEC683B650C6AECC403C756FCE /* XJNameSpace.swift in Sources */,
+				3A073C2129A0DBEA00EBDEFC /* XJFloatingPointExtensions.swift in Sources */,
+				30AADC87AB20BFB3899951AD52CDCDE8 /* XJTableView.swift in Sources */,
+				A22777C5007A95CEAE8A06945B68492C /* XJUIKitConfigure.swift in Sources */,
+				BDC33729B995738C87DFF3BAC43D327A /* XJView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0E739DC548DE2873A95C531A9ED61C82 /* PBXTargetDependency */ = {
+		0339FA1A7FC920AD0BB61EB28064716E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UIColor_Hex_Swift;
+			target = A0CA3B0841360687C00D0E48D3E4C1B9 /* UIColor_Hex_Swift */;
+			targetProxy = F1150F0B16C65542E9466FA86D45E997 /* PBXContainerItemProxy */;
+		};
+		3005298181A07F67FCAC963D6E82CE4B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CocoaLumberjack;
 			target = E95654B155D25890BE8E26081FCA8265 /* CocoaLumberjack */;
-			targetProxy = 8A23E6693380EB93EF1310B4DA045B56 /* PBXContainerItemProxy */;
+			targetProxy = 5B0D9927BB8E55A4E526C2F71F2F9FD2 /* PBXContainerItemProxy */;
 		};
-		2B23882FA0931A4E42148D729B892027 /* PBXTargetDependency */ = {
+		3930D917F9D1552F5C35CF22CA5EAB95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
+			targetProxy = ADA0CE94107729E445D98677348874E9 /* PBXContainerItemProxy */;
+		};
+		4781E3ACD3C3052644CE1794DC248A18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
+			targetProxy = 2C6443E6134335D308F9464066E65666 /* PBXContainerItemProxy */;
+		};
+		63BD02179ABBDBA9F4271EB52AA0E493 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaLumberjack;
+			target = E95654B155D25890BE8E26081FCA8265 /* CocoaLumberjack */;
+			targetProxy = 87EC697351533612B17CE8F143299F24 /* PBXContainerItemProxy */;
+		};
+		7647C6D0A7C252AAA6E6FDA261C81B36 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-XJBaseFramework_Example";
 			target = 4FD3B36FDFFEF0FDF5C831210682EA36 /* Pods-XJBaseFramework_Example */;
-			targetProxy = 2D28A1306AE217E8FF34AA1CEC35E9E7 /* PBXContainerItemProxy */;
+			targetProxy = 9D1BA5567563E0CFFD250A4549DEAEFD /* PBXContainerItemProxy */;
 		};
-		8D7F97249BBBAE385FEC6A1848951908 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = XJBaseFramework;
-			target = 651154EF2897F735D8D202B501206F55 /* XJBaseFramework */;
-			targetProxy = 1FBBD08439BAE6B5DEBF51BF2F95A612 /* PBXContainerItemProxy */;
-		};
-		96DB8CF261D4099EF117996730DC01DC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = UIColor_Hex_Swift;
-			target = A0CA3B0841360687C00D0E48D3E4C1B9 /* UIColor_Hex_Swift */;
-			targetProxy = 0DF96F239D11C29F2BBBD4B7F552CA42 /* PBXContainerItemProxy */;
-		};
-		A2CA7D26831870EA76A4EF90A467DC76 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MBProgressHUD;
-			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
-			targetProxy = F8960D9C344C0DAA91913A267D0DAEF5 /* PBXContainerItemProxy */;
-		};
-		A4D3C48FE7244802E8EA59162014F84F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MBProgressHUD;
-			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
-			targetProxy = 4E660E802C7C12AB9508982477C8815D /* PBXContainerItemProxy */;
-		};
-		CA85A55BC3A264303DB903F3004D5BE5 /* PBXTargetDependency */ = {
+		9F675C1E1690B94DF2552F0C1450A34D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SnapKit;
 			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
-			targetProxy = 89F3622F5030D901FA41295DA3D87D98 /* PBXContainerItemProxy */;
+			targetProxy = 13CB5D4D147321A334B71D6F74B08D19 /* PBXContainerItemProxy */;
 		};
-		D9429CCA551B66154106A871DF24DCF5 /* PBXTargetDependency */ = {
+		D26EFBD7DD5616A18637050D490B1849 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = UIColor_Hex_Swift;
 			target = A0CA3B0841360687C00D0E48D3E4C1B9 /* UIColor_Hex_Swift */;
-			targetProxy = CF953740BA2C6F4BFB7635441306BD63 /* PBXContainerItemProxy */;
+			targetProxy = 9E6DC7587359CAD998B354A303559C85 /* PBXContainerItemProxy */;
 		};
-		F224078E584F3EE1B6CE7F3B5BD45BCA /* PBXTargetDependency */ = {
+		DBD55A9ACFB20B478F3037FCAA929AE2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = CocoaLumberjack;
-			target = E95654B155D25890BE8E26081FCA8265 /* CocoaLumberjack */;
-			targetProxy = 32B981BAFB0D9A114EF672817C13784E /* PBXContainerItemProxy */;
+			name = XJBaseFramework;
+			target = 651154EF2897F735D8D202B501206F55 /* XJBaseFramework */;
+			targetProxy = 7EE4F3230C05126217CECD863FB7E21A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1350,6 +1406,38 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		309D9135ED6E25C4BFF03A1B15C8AE39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 271E6AD92E8CC73C7A3967320EE87A9F /* XJBaseFramework.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XJBaseFramework/XJBaseFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XJBaseFramework/XJBaseFramework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XJBaseFramework/XJBaseFramework.modulemap";
+				PRODUCT_MODULE_NAME = XJBaseFramework;
+				PRODUCT_NAME = XJBaseFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		321A2120D400C5B8DC97CEE0924C9F21 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1481,39 +1569,6 @@
 			};
 			name = Release;
 		};
-		63AB42C54C85AED3DF0D8FFD25107AE8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D2339FD8FD96AF877F359AAC861F5CC8 /* XJBaseFramework.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XJBaseFramework/XJBaseFramework-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XJBaseFramework/XJBaseFramework-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/XJBaseFramework/XJBaseFramework.modulemap";
-				PRODUCT_MODULE_NAME = XJBaseFramework;
-				PRODUCT_NAME = XJBaseFramework;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		6688C80B0CBE2F2015FBE8A08157FE38 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DBD92FC63B7C6D10F2142FCC99E90D44 /* SnapKit.debug.xcconfig */;
@@ -1572,6 +1627,39 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.7;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7FC25F365C4BCE6DE25581E4C261EC18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7517AFF416FF6FD4DA412D4A55FA8D3A /* XJBaseFramework.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XJBaseFramework/XJBaseFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XJBaseFramework/XJBaseFramework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XJBaseFramework/XJBaseFramework.modulemap";
+				PRODUCT_MODULE_NAME = XJBaseFramework;
+				PRODUCT_NAME = XJBaseFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1773,38 +1861,6 @@
 			};
 			name = Release;
 		};
-		E8552C6064F1B2B395A511926174B327 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B58CC8C7BA47FB36E8B55C6F8B5D5B90 /* XJBaseFramework.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XJBaseFramework/XJBaseFramework-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XJBaseFramework/XJBaseFramework-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/XJBaseFramework/XJBaseFramework.modulemap";
-				PRODUCT_MODULE_NAME = XJBaseFramework;
-				PRODUCT_NAME = XJBaseFramework;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		F7A9972E46DA8187A65E7743620D3830 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 857629598D78A29F2CD46D47557A14BA /* UIColor_Hex_Swift.debug.xcconfig */;
@@ -1909,11 +1965,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5A55C29845C2ABC80DC5DD26F1F20143 /* Build configuration list for PBXNativeTarget "XJBaseFramework" */ = {
+		8E3E49D993465DCD0055E46FACEF3410 /* Build configuration list for PBXNativeTarget "XJBaseFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E8552C6064F1B2B395A511926174B327 /* Debug */,
-				63AB42C54C85AED3DF0D8FFD25107AE8 /* Release */,
+				309D9135ED6E25C4BFF03A1B15C8AE39 /* Debug */,
+				7FC25F365C4BCE6DE25581E4C261EC18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

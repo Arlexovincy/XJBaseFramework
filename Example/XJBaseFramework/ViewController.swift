@@ -21,6 +21,7 @@ class ViewController: UIViewController {
         XJ_ILog("进入viewDidLoad")
         mainTableView.register(UITableViewCell.self, forCellReuseIdentifier: "MyCustomCell")
         dataArray.append("BaseViewController")
+        dataArray.append("Testing ArrayExtensions")
     }
 
     override func didReceiveMemoryWarning() {
@@ -53,9 +54,30 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         case 0: //BaseViewController
             let vc = MyTest1ViewController()
             navigationController?.pushViewController(vc, animated: true)
+        case 1: //Testing ArrayExtensions
+            testingArrayExtensions()
         default:
             break
         }
+    }
+    
+    func testingArrayExtensions() {
+        var arr = [2, 3, 4, 5]
+        arr.preAppend(1)
+        print(arr)
+        
+        arr.safeSwap(from: 0, to: 4)
+        print(arr)
+        
+        var arr2 = [1, 2, 2, 3, 4, 5]
+        arr2.removeAll(2)
+        print(arr2)
+        
+        let dValue = -12.22223
+        print(dValue.abs)
+        
+        let aStr = "1--a"
+        print(aStr.isOnlyLetters)
     }
     
 }

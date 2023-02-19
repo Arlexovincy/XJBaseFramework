@@ -32,12 +32,25 @@ TODO: Add long description of the pod here.
 
 #  s.source_files = 'XJBaseFramework/Classes/**/*'
   
+  # core功能
+  s.subspec 'XJCore' do |core|
+    core.source_files = 'XJBaseFramework/Classes/XJCore/**'
+  end
+  
+  # UIKit功能
   s.subspec 'XJUIKit' do |uikit|
     uikit.source_files = 'XJBaseFramework/Classes/XJUIKit/**'
     uikit.dependency 'UIColor_Hex_Swift', '~> 5.1.7'
     uikit.dependency 'MBProgressHUD', '~> 1.2.0'
   end
   
+  # foundation 功能
+  s.subspec 'XJFoundation' do |foundation|
+    foundation.source_files = 'XJBaseFramework/Classes/XJFoundation/**'
+    foundation.dependency 'XJBaseFramework/XJCore'
+  end
+  
+  # 日志系统
   s.subspec 'XJLoger' do |xiloger|
     xiloger.source_files = 'XJBaseFramework/Classes/XJLoger/**'
     xiloger.dependency 'CocoaLumberjack/Swift'
