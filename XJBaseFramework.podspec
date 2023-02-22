@@ -40,6 +40,7 @@ TODO: Add long description of the pod here.
   # UIKit功能
   s.subspec 'XJUIKit' do |uikit|
     uikit.source_files = 'XJBaseFramework/Classes/XJUIKit/**'
+    uikit.dependency 'XJBaseFramework/XJCore'
     uikit.dependency 'UIColor_Hex_Swift', '~> 5.1.7'
     uikit.dependency 'MBProgressHUD', '~> 1.2.0'
   end

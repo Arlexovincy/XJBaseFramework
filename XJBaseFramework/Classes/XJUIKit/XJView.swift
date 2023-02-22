@@ -29,10 +29,33 @@ public protocol XJViewProtocol: NSObject {
     /// 隐藏空数据视图
     /// - Parameter inView: 在哪个view上的
     func hideEmptyView(inView: UIView)
+    
+    /// 设置UI控件的字体大小
+    func setupUIFontSize()
 }
 
 open class XJView: UIView {
 
+    public override init(frame: CGRect) {
+        super.init(frame: frame)
+        
+        /// 监听全局字体大小改变的通知
+        NotificationCenter.default.addObserver(self, selector: #selector(globalFontSizeDidShifted), name: XJGlobalFontManager.globalFontSizeDidShiftedNotification, object: nil)
+    }
+    
+    required public init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    deinit {
+        NotificationCenter.default.removeObserver(self)
+    }
+    
+    /// 全局字体大小已经发生改变了
+    @objc private func globalFontSizeDidShifted() {
+        setupUIFontSize()
+    }
+    
     /*
     // Only override draw() if you perform custom drawing.
     // An empty implementation adversely affects performance during animation.
@@ -90,4 +113,9 @@ extension XJView: XJViewProtocol {
         }
     }
     
+    
+    /// 设置UI控件的字体大小
+    public func setupUIFontSize() {
+        /// 交给子类去实现
+    }
 }
