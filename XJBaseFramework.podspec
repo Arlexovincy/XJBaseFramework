@@ -57,6 +57,12 @@ TODO: Add long description of the pod here.
     xiloger.dependency 'CocoaLumberjack/Swift'
   end
   
+  s.subspec 'XJNavigator' do |xjnavigator|
+      xjnavigator.source_files = 'XJBaseFramework/Classes/XJNavigator/**'
+      xjnavigator.dependency 'URLNavigator'
+  end
+  
+  
   # s.resource_bundles = {
   #   'XJBaseFramework' => ['XJBaseFramework/Assets/*.png']
   # }
