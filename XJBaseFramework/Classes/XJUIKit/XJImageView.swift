@@ -1,13 +1,13 @@
 //
-//  XJCollectionView.swift
+//  XJImageView.swift
 //  XJBaseFramework
 //
-//  Created by 黎锡坚 on 2023/2/7.
+//  Created by AndreaArlex on 2023/2/24.
 //
 
 import UIKit
 
-open class XJCollectionView: UICollectionView {
+open class XJImageView: UIImageView {
 
     /*
     // Only override draw() if you perform custom drawing.

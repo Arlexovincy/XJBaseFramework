@@ -13,8 +13,21 @@ public class XJBaseNavViewController: UINavigationController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        iOS15NavBarCompatibility()
     }
     
+    /// iOS 15 navBar透明兼容
+    private func iOS15NavBarCompatibility() {
+        if #available(iOS 15.0, *) {
+            let appearance = UINavigationBarAppearance()
+            appearance.configureWithOpaqueBackground()
+            appearance.backgroundColor = .white
+            navigationBar.standardAppearance = appearance
+            navigationBar.scrollEdgeAppearance = navigationBar.standardAppearance
+        } else {
+            // Fallback on earlier versions
+        }
+    }
 
     /*
     // MARK: - Navigation

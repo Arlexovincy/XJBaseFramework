@@ -1,27 +1,13 @@
 //
-//  XJBaseViewController.swift
+//  XJTabBarController.swift
 //  XJBaseFramework
 //
-//  Created by 黎锡坚 on 2023/2/7.
+//  Created by AndreaArlex on 2023/2/23.
 //
 
 import UIKit
 
-public protocol XJBaseViewControllerProtocol: NSObject {
-    
-}
-
-open class XJBaseViewController<Container: UIView>: UIViewController {
-
-    open var container: Container { view as! Container }
-
-    open override func loadView() {
-        super.loadView()
-        if view is Container {
-            return
-        }
-        view = Container()
-    }
+open class XJTabBarController: UITabBarController {
 
     open override func viewDidLoad() {
         super.viewDidLoad()

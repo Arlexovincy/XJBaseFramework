@@ -49,9 +49,19 @@ public class XJNavigatorManager {
     /// - Parameters:
     ///   - url: 路由地址
     ///   - factory: 生成事件的闭包
-    func registerHandleEvent(_ url: String, _ factory: @escaping URLOpenHandlerFactory) {
+    public func registerHandleEvent(_ url: String, _ factory: @escaping URLOpenHandlerFactory) {
         navigator.handle(url, factory)
     }
+    
+    /// 根据地址url获取UIViewContr
+    /// - Parameters:
+    ///   - url: url地址
+    ///   - context: 参数传递
+    /// - Returns: 之前根据url地址注册过的UIViewController
+    public func viewController(for url: URLConvertible, context: Any? = nil) -> UIViewController? {
+        navigator.viewController(for: url, context: context)
+    }
+    
     
     @discardableResult
     
@@ -61,7 +71,7 @@ public class XJNavigatorManager {
     ///   - context: 参数传递
     ///   - animated: 是否动画
     /// - Returns: 被push的UIViewController
-    func push(_ url: URLConvertible, context: Any? = nil, animated: Bool = true) -> UIViewController? {
+    public func push(_ url: URLConvertible, context: Any? = nil, animated: Bool = true) -> UIViewController? {
         return navigator.push(url, context: context, animated: animated)
     }
     
@@ -74,7 +84,7 @@ public class XJNavigatorManager {
     ///   - animated: 是否动画
     ///   - completion: 完成后的回调
     /// - Returns: 被present的UIViewController
-    func present(_ url: URLConvertible, context: Any? = nil, animated: Bool = true, completion: (() -> Void)? = nil) -> UIViewController? {
+    public func present(_ url: URLConvertible, context: Any? = nil, animated: Bool = true, completion: (() -> Void)? = nil) -> UIViewController? {
         return navigator.present(url,context: context, animated: animated, completion: completion)
     }
     
@@ -85,7 +95,7 @@ public class XJNavigatorManager {
     ///   - url: 路由的地址
     ///   - context: 参数传递
     /// - Returns: 是否执行成功
-    func executeEvent(_ url: URLConvertible, context: Any? = nil) -> Bool {
+    public func executeEvent(_ url: URLConvertible, context: Any? = nil) -> Bool {
         return navigator.open(url, context: context)
     }
 }
