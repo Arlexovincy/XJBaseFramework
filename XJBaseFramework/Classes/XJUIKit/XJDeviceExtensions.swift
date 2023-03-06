@@ -58,7 +58,7 @@ public extension UIDevice {
         return width
     }
     
-    /// 获取屏幕高度
+    /// 获取屏幕高度 
     /// - Returns: 屏幕高度
     static func screenHeight() -> CGFloat {
         let height = UIScreen.main.bounds.height
