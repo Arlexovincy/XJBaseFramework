@@ -49,6 +49,7 @@ TODO: Add long description of the pod here.
   s.subspec 'XJFoundation' do |foundation|
     foundation.source_files = 'XJBaseFramework/Classes/XJFoundation/**'
     foundation.dependency 'XJBaseFramework/XJCore'
+    foundation.dependency 'SwiftyRSA'
   end
   
   # 日志系统

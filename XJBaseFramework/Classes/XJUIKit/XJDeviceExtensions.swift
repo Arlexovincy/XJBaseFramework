@@ -70,4 +70,12 @@ public extension UIDevice {
     static func tabBarHeight() -> CGFloat {
         return 49.0
     }
+    
+    /// 获取App的版本号
+    /// - Returns: app版本号
+    static func getAppVersion() -> String {
+        let info = Bundle.main.infoDictionary
+        let appVersion = info?["CFBundleShortVersionString"] as? String ?? "Unknown"
+        return appVersion
+    }
 }

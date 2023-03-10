@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftyRSA
 
 // MARK: - Properties
 
@@ -460,5 +461,26 @@ public extension String {
         guard let decodedData = Data(base64Encoded: base64) else { return nil }
         guard let str = String(data: decodedData, encoding: .utf8) else { return nil }
         self.init(str)
+    }
+}
+
+// MARK: - RSA
+public extension String {
+    
+    /// RSA加密
+    /// - Parameter key: 公钥
+    /// - Returns: 加密后的内容
+    func rsaEncrypt(publicKey key: String) -> String? {
+        do {
+            let clearMessage = try ClearMessage(string: self, using: .utf8)
+            let publicKey = try PublicKey(base64Encoded: key)
+            let encrypted = try clearMessage.encrypted(with: publicKey, padding: .PKCS1)
+            let encryptedBase64Str = encrypted.base64String
+            return encryptedBase64Str
+            
+        } catch {
+            return nil
+        }
+        
     }
 }
