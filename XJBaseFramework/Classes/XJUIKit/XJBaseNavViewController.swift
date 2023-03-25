@@ -11,6 +11,7 @@ public class XJBaseNavViewController: UINavigationController {
 
     public override func viewDidLoad() {
         super.viewDidLoad()
+        delegate = self
 
         // Do any additional setup after loading the view.
         iOS15NavBarCompatibility()
@@ -39,4 +40,21 @@ public class XJBaseNavViewController: UINavigationController {
     }
     */
 
+}
+
+extension XJBaseNavViewController: UINavigationControllerDelegate {
+    public override func pushViewController(_ viewController: UIViewController, animated: Bool) {
+        if viewControllers.count > 0 {
+            viewController.hidesBottomBarWhenPushed = true
+        }
+        super.pushViewController(viewController, animated: animated)
+    }
+    
+    public func navigationController(_ navigationController: UINavigationController, willShow viewController: UIViewController, animated: Bool) {
+        if viewControllers.count > 0 {
+            if let vc = viewControllers.last as? XJBaseViewControllerProtocol {
+                vc.resetNavigationBar()
+            }
+        }
+    }
 }

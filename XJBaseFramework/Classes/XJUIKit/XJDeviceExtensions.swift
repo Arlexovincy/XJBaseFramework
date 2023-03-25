@@ -71,6 +71,28 @@ public extension UIDevice {
         return 49.0
     }
     
+    /// 获取statusBar的高度
+    /// - Returns: statusBar的高度
+    static func statusBarHeight() -> CGFloat {
+        if #available(iOS 13.0, *) {
+            let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene
+            let statusBarManager = windowScene?.statusBarManager
+            return statusBarManager?.statusBarFrame.size.height ?? 0
+        } else {
+            return UIApplication.shared.statusBarFrame.size.height
+        }
+    }
+    
+    /// 获取naviBar高度
+    /// - Returns: naviBar高度
+    static func naviBarHeight() -> CGFloat {
+        if let topViewController = UIViewController.xj_topViewController, let height = topViewController.navigationController?.navigationBar.frame.size.height {
+            return height
+        } else {
+            return 0
+        }
+    }
+    
     /// 获取App的版本号
     /// - Returns: app版本号
     static func getAppVersion() -> String {

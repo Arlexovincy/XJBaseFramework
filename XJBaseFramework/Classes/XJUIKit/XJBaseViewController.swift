@@ -8,10 +8,25 @@
 import UIKit
 
 public protocol XJBaseViewControllerProtocol: NSObject {
-    
+    var hideNavigationBar: Bool { get set }
+    func resetNavigationBar()
 }
 
-open class XJBaseViewController<Container: UIView>: UIViewController {
+open class XJBaseViewController<Container: UIView>: UIViewController, XJBaseViewControllerProtocol {
+    
+    /// 隐藏导航栏
+    public var hideNavigationBar = false
+    
+    /// 是否显示返回按钮的标题，请在父类viewdidload之后调用
+    var showBackButtonTitle: Bool = false {
+        didSet {
+            if showBackButtonTitle {
+                navigationController?.navigationBar.topItem?.backButtonTitle = "返回"
+            } else {
+                navigationController?.navigationBar.topItem?.backButtonTitle = ""
+            }
+        }
+    }
 
     open var container: Container { view as! Container }
 
@@ -27,6 +42,11 @@ open class XJBaseViewController<Container: UIView>: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        showBackButtonTitle = false
+    }
+    
+    open func resetNavigationBar() {
+        navigationController?.setNavigationBarHidden(hideNavigationBar, animated: false)
     }
     
 
